@@ -1,4 +1,11 @@
 site_name: Decompilation Wiki
+site_description: The Decompilation Wiki is a categorized information hub for works and applications of decompilation.
+site_author: Decompilation Wiki Team
+site_url: https://decompilation.wiki
+repo_name: mahaloz/decompilation-wiki
+repo_url: https://github.com/mahaloz/decompilation-wiki
+edit_uri: blob/main/docs/
+copyright: Copyright &copy; 2024 Decompilation Wiki Team
 theme:
   name: material
   palette:
