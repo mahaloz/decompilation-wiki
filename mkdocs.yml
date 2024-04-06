@@ -1,3 +1,84 @@
 site_name: Decompilation Wiki
 theme:
   name: material
+  palette:
+    primary: orange
+    secondary: deep orange
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - search.suggest
+    - search.highlight
+    - search.share
+  logo: static/img/logo.png
+  font:
+    text: Noto Sans
+    code: Source Code Pro
+plugins:
+- search
+- minify:
+    minify_html: true
+nav:
+- About 🏠:
+  - index.md
+  - contributing.md
+- Decompilers 💾:
+  - decompilers/directory.md
+  - Decompiler:
+    - decompilers/decompiler/angr.md
+    - decompilers/decompiler/binary_ninja.md
+    - decompilers/decompiler/ghidra.md
+    - decompilers/decompiler/ida_pro.md
+  - decompilers/tools.md
+  - decompilers/history.md
+- Fundamentals 🔍:
+  - fundamentals/introduction.md
+  - Control Flow Graph Recovery:
+    - fundamentals/cfg_recovery/introduction.md
+  - Datatype Recovery:
+    - fundamentals/type_recovery/introduction.md
+  - Control Flow Structuring:
+    - fundamentals/cf_structuring/introduction.md
+  - Quality Evaluation:
+    - fundamentals/evaluation/introduction.md
+- Applied Research ⚙️:
+  - applied_research/introduction.md
+  - applied_research/symbol_recovery.md
+  - applied_research/library_identification.md
+- Applications 🌍:
+  - applications/introduction.md
+  - applications/program_reconstruction.md
+- Misc 📦:
+  - misc/blogs.md
+markdown_extensions:
+- admonition
+- md_in_html
+- codehilite:
+    guess_lang: false
+- def_list
+- footnotes
+- meta
+- toc:
+    permalink: true
+- pymdownx.arithmatex
+- pymdownx.caret
+- pymdownx.critic
+- pymdownx.details
+- pymdownx.highlight
+- pymdownx.inlinehilite
+- pymdownx.keys
+- pymdownx.magiclink
+- pymdownx.mark
+- pymdownx.smartsymbols
+- pymdownx.superfences:
+    custom_fences:
+    - name: mermaid
+      class: mermaid
+      format: !!python/name:pymdownx.superfences.fence_code_format ''
+- pymdownx.tasklist:
+    custom_checkbox: true
+- pymdownx.tilde
+extra_javascript:
+- https://cdnjs.loli.net/ajax/libs/pangu/3.3.0/pangu.min.js
+- static/js/extra.js
+- https://cdnjs.loli.net/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML
