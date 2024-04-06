@@ -1,7 +1,7 @@
 # The Decompilation Wiki
 
 <p align="center">
-   <img src="/static/img/logo.png" style="width: 30%;" alt="Dec Wiki Logo"/>
+   <img src="/docs/static/img/logo.png" style="width: 30%;" alt="Dec Wiki Logo"/>
 </p>
 
 The Decompilation Wiki is a collection of categorized information on all things decompilation.
