@@ -40,7 +40,7 @@ These categorizations may not be agreed upon at first, however, we will update t
 In this way, we can quickly attempt to taxonomize the area of decompilation while iterating on it. 
 
 ## Who Made This?
-The Decompilation Wiki was created by [Zion Leonahenahe Basque](https://zionbasque.com).
+The Decompilation Wiki was started by [Zion Leonahenahe Basque](https://zionbasque.com), but is sustained by the contributions of the decompilation community. Both closed and open-source developers are welcome! 
 
 The wiki is highly inspired by the following sources:
 
