@@ -1,0 +1,80 @@
+# Introduction
+
+Academically introduced in Dr. Cifuentes' 1994 Dissertation[^1], decompilation control flow structuring is the process used to turn a control flow graph (CFG) into a structured high-level language. 
+Control flow structuring in decompilation is highly related to the general control flow structuring process found in compiler research.
+Although the goal of control flow structuring, referred to as structuring, is to output linear high-level code, the level of abstraction of that code is open research.
+Additionally, few works exist in structuring for targeting language output other than C. 
+
+## General Structuring Example
+Although often thought of [in the context of assembly](https://en.wikipedia.org/wiki/Decompiler#Structuring), control flow structuring requires a control flow graph and conditions [^3]. 
+For example, the attributed control flow graph below can be used as input:
+
+```
+                            +-----+
+                            |  A  |
+                            +-----+
+                              |   |
+                           ~x |   +--+
+                              V      |
+                         +-----+     |
+                         |  B  |     | x
+                         +-----+     |
+                           |  +--+   |
+                        ~y |     | y |
+                           V     V   V
+                       +-----+  +-----+
+                       |  D  |  |  C  |
+                       +-----+  +-----+
+                            |    |
+                            V    V
+                            +-----+
+                            |  E  |
+                            +-----+
+```
+
+Using a [schmea-based](/docs/fundamentals/cf_structuring/schema-based.md) structuring algorithm, the graph can be turned into the following C:
+
+```c
+A();
+if(x)
+    goto label_c;
+B();
+if (y) {
+label_c:
+    C();
+}
+else {
+    D();
+}
+E();
+```
+
+There are multiple ways of turning the graph into linear C code [^4].
+For instance, the first condition on `x` can be flipped, changing where the `goto` appears and how many `if` scopes exist in the program. 
+
+## Types of Structuring
+Previous work, academically, can be divided into two sets of structuring algorithms:
+
+1. [Schema-based](/docs/fundamentals/cf_structuring/schema-based.md): algorithms which rely mainly on graph-patterns and some conditions 
+2. [Condition-based](/docs/fundamentals/cf_structuring/condition-based.md): algorithms that rely mainly on conditions 
+
+The biggest difference between these two is their reliance on known compiler patterns[^5]. 
+In schema-based algorithms, the decompiler author creates a set of known compiler output patterns to recover a target language. 
+In condition-based algorithms, the decompiler author uses conditions to make bounded code based on those conditions. 
+
+Both sets can produce decompilation that is [gotoless](/docs/fundamentals/cf_structuring/condition-based.md): code that contains no `gotos` or `jmps`. 
+However, it is more common to use a condition-based structuring algorithm, like DREAM[^5], to achieve goto-less decompilation.
+
+## Related Fields
+Structuring in decompilation was directly inspired by compiler works in structuring and general data-flow analysis[^3]. 
+One of these earliest works was the 1970s paper "Control flow analysis."[^2], which laid out the fundamental ideas for constructing [control flow graphs](/docs/fundamentals/cfg_recovery/introduction.md).
+Additionally, many of the ideas for eliminating gotos, which were often a byproduct of schema-based structuring, were inspired by work in restructuring source code[^6] [^7].
+
+
+[^1]: Cifuentes, Cristina. Reverse compilation techniques. Queensland University of Technology, Brisbane, 1994.
+[^2]: Allen, Frances E. "Control flow analysis." ACM Sigplan Notices 5.7 (1970): 1-19.
+[^3]: Brumley, David, et al. "Native x86 decompilation using Semantics-Preserving structural analysis and iterative Control-Flow structuring." 22nd USENIX Security Symposium (USENIX Security 13). 2013.
+[^4]: Basque, Zion Leonahenahe. “30 Years of Decompilation and the Unsolved Structuring Problem: Part 1.” Mahaloz.Re, 2 Jan. 2024, https://mahaloz.re/dec-history-pt1. Accessed 11 Apr. 2024. 
+[^5]: Yakdan, Khaled, et al. "No More Gotos: Decompilation Using Pattern-Independent Control-Flow Structuring and Semantic-Preserving Transformations." NDSS. 2015.
+[^6]: Williams, M. Howard, and G. Chen. "Restructuring pascal programs containing goto statements." The Computer Journal 28.2 (1985): 134-137.
+[^7]: Erosa, Ana M., and Laurie J. Hendren. "Taming control flow: A structured approach to eliminating goto statements." Proceedings of 1994 IEEE International Conference on Computer Languages (ICCL'94). IEEE, 1994. 

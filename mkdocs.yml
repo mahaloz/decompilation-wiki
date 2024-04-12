@@ -46,6 +46,9 @@ nav:
     - fundamentals/type_recovery/introduction.md
   - Control Flow Structuring:
     - fundamentals/cf_structuring/introduction.md
+    - fundamentals/cf_structuring/schema-based.md
+    - fundamentals/cf_structuring/condition-based.md
+    - fundamentals/cf_structuring/gotoless.md
   - Quality Evaluation:
     - fundamentals/evaluation/introduction.md
 - Applied Research ⚙️:
