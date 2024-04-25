@@ -1,4 +1,5 @@
-# Introduction
+# Overview
+## Introduction
 
 Academically introduced in Dr. Cifuentes' 1994 Dissertation[^1], decompilation control flow structuring is the process used to turn a control flow graph (CFG) into a structured high-level language. 
 Control flow structuring in decompilation is highly related to the general control flow structuring process found in compiler research.

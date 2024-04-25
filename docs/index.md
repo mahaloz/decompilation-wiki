@@ -5,7 +5,7 @@
 </p>
 
 The Decompilation Wiki is a collection of categorized information on all things decompilation.
-From real-world applications to cutting-edge research papers, the Decompilation Wiki has it all! Join our Discord below for active community engagement. To get involved, see our [contribution guide](/docs/contributing.md).
+From real-world applications to cutting-edge research papers, the Decompilation Wiki has it all! Join our Discord below for active community engagement. To get involved, see our [contribution guide](/docs/contributing).
 
 [![Discord](https://dcbadge.vercel.app/api/server/hE7prXNt7t)](https://discord.gg/hE7prXNt7t)
 
@@ -24,7 +24,7 @@ Decompilation has wide applications across cyber security, including:
 - vulnerability discovery (the understanding of program flaws)
 - malware classification
 - program repair
-- [much more...](/applications/introduction/). 
+- [much more...](/docs/applications/overview/). 
 
 ## Wiki Goals
 This wiki has two main goals:
