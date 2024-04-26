@@ -1,5 +1,5 @@
-# All Decompilers
-A collection of full decompilers.
+# Decompiler Directory
+Ove
 
 ### Legend
 
@@ -9,8 +9,8 @@ A collection of full decompilers.
 
 ### Alphabetical Order
 
-| Decompiler | Attributes | Lifter/IR |
-|------------|------------|-----------|
-| [angr decompiler](https://github.com/angr/angr/tree/master/angr/analyses/decompiler) | 🌐, 0️⃣ | [VEX](https://github.com/angr/vex/tree/8f48c00eadbb31d379b829c01792a9c4a21636d4), [AIL](https://github.com/angr/ailment) | 
-| [Binary Ninja](https://binary.ninja/) | 0️⃣ | [BNIL](https://docs.binary.ninja/dev/bnil-llil.html) |
+| Decompiler | Attributes | Lifter/IR | Release Date |
+|------------|------------|-----------|--------------|
+| [angr decompiler](https://github.com/angr/angr/tree/master/angr/analyses/decompiler) | 🌐, 0️⃣ | [VEX](https://github.com/angr/vex/tree/8f48c00eadbb31d379b829c01792a9c4a21636d4), [AIL](https://github.com/angr/ailment) | Aug. 2019 |
+| [Binary Ninja](https://binary.ninja/) | 0️⃣ | [BNIL](https://docs.binary.ninja/dev/bnil-llil.html) | ? |
 
