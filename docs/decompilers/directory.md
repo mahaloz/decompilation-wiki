@@ -1,5 +1,8 @@
 # Decompiler Directory
-Ove
+Over the years, many decompilers have been made by both hackers and academics alike. 
+In this directory, you will find a listing of all known (at least to the wiki authors) decompilers. 
+
+Each decompiler should also be listed with some minimal facts about their differences. 
 
 ### Legend
 
