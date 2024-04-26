@@ -33,7 +33,7 @@ For example, the attributed control flow graph below can be used as input:
                             +-----+
 ```
 
-Using a [schmea-based](/docs/fundamentals/cf_structuring/schema-based.md) structuring algorithm, the graph can be turned into the following C:
+Using a [schmea-based](/docs/fundamentals/cf_structuring/schema-based) structuring algorithm, the graph can be turned into the following C:
 
 ```c
 A();
@@ -54,21 +54,19 @@ There are multiple ways of turning the graph into linear C code [^4].
 For instance, the first condition on `x` can be flipped, changing where the `goto` appears and how many `if` scopes exist in the program. 
 
 ## Types of Structuring
-Previous work, academically, can be divided into two sets of structuring algorithms:
+There are two dominant types of structuring algorithms[^4]:
 
-1. [Schema-based](/docs/fundamentals/cf_structuring/schema-based.md): algorithms which rely mainly on graph-patterns and some conditions 
-2. [Condition-based](/docs/fundamentals/cf_structuring/condition-based.md): algorithms that rely mainly on conditions 
+1. [Schema-based](/docs/fundamentals/cf_structuring/schema-based.md): Algorithms that construct code based on pre-known graph patterns that are omitted by compilers. These algorithms attempt to only make structured code when they are aware of a direct mapping to its source structure. 
+2. [Gotoless](/docs/fundamentals/cf_structuring/gotoless.md): Algorithms that prioritize removing all unstructured regions from code. These algorithms may use schema-based methods initially but are unique in their pattern-matching of structures that may not exist in its source. 
 
 The biggest difference between these two is their reliance on known compiler patterns[^5]. 
 In schema-based algorithms, the decompiler author creates a set of known compiler output patterns to recover a target language. 
-In condition-based algorithms, the decompiler author uses conditions to make bounded code based on those conditions. 
-
-Both sets can produce decompilation that is [gotoless](/docs/fundamentals/cf_structuring/condition-based.md): code that contains no `gotos` or `jmps`. 
-However, it is more common to use a condition-based structuring algorithm, like DREAM[^5], to achieve goto-less decompilation.
+In gotoless algorithms, the decompiler author uses patterns outside of graph schemas, which may be compiler and language-independent.
+One such example is condition-based structuring, as used in the DREAM [^5] decompiler. 
 
 ## Related Fields
 Structuring in decompilation was directly inspired by compiler works in structuring and general data-flow analysis[^3]. 
-One of these earliest works was the 1970s paper "Control flow analysis."[^2], which laid out the fundamental ideas for constructing [control flow graphs](/docs/fundamentals/cfg_recovery/introduction.md).
+One of these earliest works was the 1970s paper "Control flow analysis."[^2], which laid out the fundamental ideas for constructing [control flow graphs](/docs/fundamentals/cfg_recovery/overview).
 Additionally, many of the ideas for eliminating gotos, which were often a byproduct of schema-based structuring, were inspired by work in restructuring source code[^6] [^7].
 
 
