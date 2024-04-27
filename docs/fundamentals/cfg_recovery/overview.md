@@ -14,6 +14,9 @@ This recovery can be broken up into multiple phases, some being optional dependi
 The second phase, program lifting, is only required if the decompiler aims to be architecture agnostic.
 Most decompilers will use an IL to make their later analyses more widely applicable. 
 
+Methods for evaluating improvements in this field are also of note but have had very limited work.
+The most recent of these works has focused on instrumenting and comparing to the compile-generated CFG[^2][^3]. 
+
 ## Graph Recovery Example
 An example C program is shown below:
 ```c
@@ -60,4 +63,5 @@ The structure of the graph will also look the same if lifted to an IL.
 
 
 [^1]: Allen, Frances E. "Control flow analysis." ACM Sigplan Notices 5.7 (1970): 1-19.
-
+[^2]: Pang, Chengbin, et al. "Ground truth for binary disassembly is not easy." 31st USENIX Security Symposium (USENIX Security 22). 2022.
+[^3]: Pang, Chengbin, et al. "Sok: All you ever wanted to know about x86/x64 binary disassembly but were afraid to ask." 2021 IEEE symposium on security and privacy (SP). IEEE, 2021.

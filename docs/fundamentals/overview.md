@@ -9,7 +9,7 @@ Some academic work has defined fundamental decompilation research to include thr
 1. [Control Flow Graph Recovery](/docs/fundamentals/cfg_recovery/overview): the extraction of (lifted) directed graphs indicating code execution
 2. [Type Recovery](/docs/fundamentals/type_recovery/overview): the typing and discovery of variables in the program
 3. [Control Flow Structuring](/docs/fundamentals/cf_structuring/overview): the conversion of a CFG to a linear code-like output
-4. [Quality Evaluation](/docs/fundamentals/evaluation/overview): the measurement of overall decompilation quality
+4. [Quality Evaluation](/docs/fundamentals/evaluation): the measurement of overall decompilation quality
 
 Each of these fundamental areas affects the quality of one another in some way.
 For instance, improvements to type recovery can directly improve the results of control flow structuring[^4].

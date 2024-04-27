@@ -49,8 +49,7 @@ nav:
     - fundamentals/cf_structuring/overview.md
     - fundamentals/cf_structuring/schema-based.md
     - fundamentals/cf_structuring/gotoless.md
-  - Quality Evaluation:
-    - fundamentals/evaluation/overview.md
+  - fundamentals/evaluation.md
   - fundamentals/neural_decompilation.md
 - Applied Research ⚙️:
   - applied_research/overview.md
