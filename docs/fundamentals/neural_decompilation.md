@@ -2,7 +2,7 @@
 ## Introduction 
 This wiki defines a neural decompiler as the following:
 
-- _Any decompiler that wholly replaces one or many [fundamental decompiler components](/docs/fundamentals/overview#generic-decompilation-pipeline) with a machine-learning model_.
+- _Any decompiler that wholly replaces one or many [fundamental decompiler components](/fundamentals/overview#generic-decompilation-pipeline) with a machine-learning model_.
 
 As such, decompilation produced by a neural decompiler is neural decompilation.
 Approaches in this area are promising because they often offer a more generic solution to decompilation. 
