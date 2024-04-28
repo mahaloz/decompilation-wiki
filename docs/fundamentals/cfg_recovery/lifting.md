@@ -1,14 +1,17 @@
 # Program Lifting 
 
+## Introduction
 In program lifting, disassembly is converted into an intermediate language (IL)[^1], which is also referred to as an intermediate representation (IR).
+Converting disassembly to an IL allows decompiler developers to make optimizations on the IL level which apply to multiple architectures. 
 
-There exist many ILs for analysis of programs, but some of the most notable for decompilation are tied to binary analysis.
+There exist many ILs for analysis of programs, but some of the most notable ones for decompilation are tied to binary analysis.
 Most binary analysis platforms that have created or used an IL often follow the same techniques but mostly differ in their later use of ILs[^1][^2][^3][^4]. 
-One such use is recompilation of decompilation, which can be made easier by lifting to compiled ILs like LLVM-IR[^5][^6]. 
+One such use is recompilable decompilation, which can be made easier by lifting to compiled ILs like LLVM-IR[^5][^6]. 
 
+Similar to static analysis, most ILs used in decompilation support some form of static single assignment (SSA) since it simplifies some analyses[^7].
 
 ## Example Lifted Program
-Below is some example x86 assembly:
+Below is some example x86 assembly of a simple C program:
 ```asm
 0000000000001129 <main>:
     1129:   f3 0f 1e fa             endbr64
@@ -22,10 +25,10 @@ Below is some example x86 assembly:
     1143:   c7 45 fc 01 00 00 00    mov    DWORD PTR [rbp-0x4],0x1
     114a:   8b 45 fc                mov    eax,DWORD PTR [rbp-0x4]
     114d:   5d                      pop    rbp
-    114e:   c3  
+    114e:   c3                      ret 
 ```
 
-As an example, it can be lifted to an IL like VEX, the IL used in the angr decompiler:
+It can be lifted to an IL like VEX, the IL used in the angr decompiler:
 ```asm
 00 | ------ IMark(0x401129, 4, 0) ------
 01 | PUT(rip) = 0x000000000040112d
@@ -67,12 +70,15 @@ NEXT: PUT(rip) = 0x000000000040113a; Ijk_Boring
 ...
 ```
 
-Notice the abstraction of compares and assignments makes the code much more verbose.
-As such, it has been cut for brevity. 
+In the case of VEX, each `t` variable is only ever assigned once, making this SSA form. 
+You will also notice how verbose every instruction has become. 
+Even simple `mov` instructions, which assign a value to a register, have much more information now. 
+The lifted VEX above has been cut for brevity. 
 
 [^1]: Song, Dawn, et al. "BitBlaze: A new approach to computer security via binary analysis." Information Systems Security: 4th International Conference, ICISS 2008, Hyderabad, India, December 16-20, 2008. Proceedings 4. Springer Berlin Heidelberg, 2008.
 [^2]: Kinder, Johannes, and Helmut Veith. "Jakstab: a static analysis platform for binaries: tool paper." Computer Aided Verification: 20th International Conference, CAV 2008 Princeton, NJ, USA, July 7-14, 2008 Proceedings 20. Springer Berlin Heidelberg, 2008.
 [^3]: Brumley, David, et al. "BAP: A binary analysis platform." Computer Aided Verification: 23rd International Conference, CAV 2011, Snowbird, UT, USA, July 14-20, 2011. Proceedings 23. Springer Berlin Heidelberg, 2011.
 [^4]: Wang, Fish, and Yan Shoshitaishvili. "Angr-the next generation of binary analysis." 2017 IEEE Cybersecurity Development (SecDev). IEEE, 2017.
 [^5]: Gussoni, Andrea, et al. "A comb for decompiled c code." Proceedings of the 15th ACM Asia Conference on Computer and Communications Security. 2020.
-[^6]: https://github.com/revng/revng
+[^6]: Revng. “Revng/Revng: Revng: The Core Repository of the Rev.Ng Project.” GitHub, github.com/revng/revng. Accessed 27 Apr. 2024.  
+[^7]: Van Emmerik, Michael James. Static single assignment for decompilation. University of Queensland, 2007.
