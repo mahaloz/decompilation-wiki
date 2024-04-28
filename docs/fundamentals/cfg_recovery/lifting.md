@@ -6,7 +6,8 @@ Converting disassembly to an IL allows decompiler developers to make optimizatio
 
 There exist many ILs for analysis of programs, but some of the most notable ones for decompilation are tied to binary analysis.
 Most binary analysis platforms that have created or used an IL often follow the same techniques but mostly differ in their later use of ILs[^1][^2][^3][^4]. 
-One such use is recompilable decompilation, which can be made easier by lifting to compiled ILs like LLVM-IR[^5][^6]. 
+One such use is recompilable decompilation, which can be made easier by lifting to compiled ILs like LLVM-IR[^5][^6].
+Another use-case has been the verification of decompilation correctness[^8].
 
 Similar to static analysis, most ILs used in decompilation support some form of static single assignment (SSA) since it simplifies some analyses[^7].
 
@@ -82,3 +83,4 @@ The lifted VEX above has been cut for brevity.
 [^5]: Gussoni, Andrea, et al. "A comb for decompiled c code." Proceedings of the 15th ACM Asia Conference on Computer and Communications Security. 2020.
 [^6]: Revng. “Revng/Revng: Revng: The Core Repository of the Rev.Ng Project.” GitHub, github.com/revng/revng. Accessed 27 Apr. 2024.  
 [^7]: Van Emmerik, Michael James. Static single assignment for decompilation. University of Queensland, 2007.
+[^8]: Engel, Daniel, Freek Verbeek, and Binoy Ravindran. "BIRD: A Binary Intermediate Representation for Formally Verified Decompilation of X86-64 Binaries." International Conference on Tests and Proofs. Cham: Springer Nature Switzerland, 2023.
