@@ -1,4 +1,4 @@
-# Overview
+# Structuring Overview
 ## Introduction
 
 Academically introduced in Dr. Cifuentes' 1994 Dissertation[^1], decompilation control flow structuring is the process used to turn a control flow graph (CFG) into a structured high-level language. 
@@ -54,7 +54,7 @@ There are multiple ways of turning the graph into linear C code [^4].
 For instance, the first condition on `x` can be flipped, changing where the `goto` appears and how many `if` scopes exist in the program. 
 
 ## Types of Structuring
-There are two dominant types of structuring algorithms[^4]:
+There are two dominant types of structuring algorithms[^8]:
 
 1. [Schema-based](/fundamentals/cf_structuring/schema-based.md): Algorithms that construct code based on pre-known graph patterns that are omitted by compilers. These algorithms attempt to only make structured code when they are aware of a direct mapping to its source structure. 
 2. [Gotoless](/fundamentals/cf_structuring/gotoless.md): Algorithms that prioritize removing all unstructured regions from code. These algorithms may use schema-based methods initially but are unique in their pattern-matching of structures that may not exist in its source. 
@@ -76,4 +76,5 @@ Additionally, many of the ideas for eliminating gotos, which were often a byprod
 [^4]: Basque, Zion Leonahenahe. “30 Years of Decompilation and the Unsolved Structuring Problem: Part 1.” Mahaloz.Re, 2 Jan. 2024, https://mahaloz.re/dec-history-pt1. Accessed 11 Apr. 2024. 
 [^5]: Yakdan, Khaled, et al. "No More Gotos: Decompilation Using Pattern-Independent Control-Flow Structuring and Semantic-Preserving Transformations." NDSS. 2015.
 [^6]: Williams, M. Howard, and G. Chen. "Restructuring pascal programs containing goto statements." The Computer Journal 28.2 (1985): 134-137.
-[^7]: Erosa, Ana M., and Laurie J. Hendren. "Taming control flow: A structured approach to eliminating goto statements." Proceedings of 1994 IEEE International Conference on Computer Languages (ICCL'94). IEEE, 1994. 
+[^7]: Erosa, Ana M., and Laurie J. Hendren. "Taming control flow: A structured approach to eliminating goto statements." Proceedings of 1994 IEEE International Conference on Computer Languages (ICCL'94). IEEE, 1994.
+[^8]: Basque, Zion Leonahenahe, et al. "Ahoy sailr! there is no need to dream of c: A compiler-aware structuring algorithm for binary decompilation." 33st USENIX Security Symposium (USENIX Security 24). 2024.

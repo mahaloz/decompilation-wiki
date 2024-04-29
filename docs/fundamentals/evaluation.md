@@ -51,8 +51,12 @@ Some work has constructed a taxonomy of decompiler-to-source errors[^13].
 That work categorized and identified many errors that occur when decompiling a binary. 
 
 Other work has identified general methods by which we may test the _correctness_ of decompilation[^14].
-Relatadely, some structuring work has attempted to measure this through recompiliability[^2]. 
+Relatedly, some structuring work has attempted to measure this through recompiliability[^2]. 
 
+## Dataset Generation
+The question of "what dataset?" to use has also been an issue in decompilation.
+Additionally, compiled binaries can sometimes be hard to access.
+Some related work has explored ways to generate bigger binary datasets for the evaluation of binary tools like decompilers[^17].
 
 
 [^1]: Cifuentes, Cristina. Reverse compilation techniques. Queensland University of Technology, Brisbane, 1994.
@@ -71,4 +75,4 @@ Relatadely, some structuring work has attempted to measure this through recompil
 [^14]: How far we have come: Testing decompilation correctness of C decompilers
 [^15]: Nosco, Timothy, et al. "The industrial age of hacking." 29th USENIX Security Symposium (USENIX Security 20). 2020.
 [^16]: Mantovani, Alessandro, et al. "{RE-Mind}: a First Look Inside the Mind of a Reverse Engineer." 31st USENIX Security Symposium (USENIX Security 22). 2022.
-
+[^17]: Singhal, Vidush, et al. "Cornucopia: A Framework for Feedback Guided Generation of Binaries." Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering. 2022.

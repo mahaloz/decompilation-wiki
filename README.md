@@ -1,11 +1,11 @@
 # The Decompilation Wiki
 
 <p align="center">
-   <img src="/static/img/logo.png" style="width: 30%;" alt="Dec Wiki Logo"/>
+   <img src="/docs/static/img/logo.png" style="width: 30%;" alt="Dec Wiki Logo"/>
 </p>
 
 The Decompilation Wiki is a collection of categorized information on all things decompilation.
-From real-world applications to cutting-edge research papers, the Decompilation Wiki has it all! Join our Discord below for active community engagement. To get involved, see our [contribution guide](./docs/contributing.md).
+From real-world applications to cutting-edge research papers, the Decompilation Wiki has it all! Join our Discord below for active community engagement. To get involved, see our [contribution guide](/docs/contributing.md).
 
 [![Discord](https://dcbadge.vercel.app/api/server/hE7prXNt7t)](https://discord.gg/hE7prXNt7t)
 
@@ -24,9 +24,9 @@ Decompilation has wide applications across cyber security, including:
 - vulnerability discovery (the understanding of program flaws)
 - malware classification
 - program repair
-- [and much more...](./docs/applications/overview.md)
+- [much more...](/applications/introduction/). 
 
-## Wiki Goals?
+## Wiki Goals
 This wiki has two main goals:
 
 1. Making decompilation knowledge more accessible to new-comers in the field
@@ -45,7 +45,7 @@ The Decompilation Wiki was started by [Zion Leonahenahe Basque](https://zionbasq
 The wiki is highly inspired by the following sources:
 
 - [Program-Transformation.org](https://www.program-transformation.org/): a wiki on program transformations, including some decompilation.
-- [CTF Wiki](https://ctf-wiki.org/): a wiki for Capture the Flag, inspiring this layout and design.
+- [CTF Wiki](https://ctf-wiki.org/): a wiki for Capture the Flag, inspiring this layout and design
 - ["30 Years into Scientific Binary Decompilation"](https://www.youtube.com/watch?v=XasallkPQIA), Dr. Ruoyu (Fish) Wang: a source of information on decompilers.
 
 
