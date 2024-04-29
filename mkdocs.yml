@@ -32,7 +32,6 @@ nav:
 - Decompilers 💾:
   - decompilers/directory.md
   - decompilers/tools.md
-  - decompilers/history.md
 - Fundamentals 🔍:
   - fundamentals/overview.md
   - Control Flow Graph Recovery:
@@ -51,7 +50,8 @@ nav:
 - Applied Research ⚙️:
   - applied_research/overview.md
   - applied_research/symbol_recovery.md
-  - applied_research/library_identification.md
+  - applied_research/code_sim.md
+  - applied_research/vuln_discovery.md
 - Applications 🌍:
   - applications/overview.md
   - applications/program_reconstruction.md
