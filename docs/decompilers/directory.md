@@ -9,11 +9,24 @@ Each decompiler should also be listed with some minimal facts about their differ
 - 🌐: open-source
 - 💀: inactive (2 years without activity)
 - 0️⃣: binary decompiler (compiled languages)
+- 🔌: implemented as a plugin to another decompiler
 
 ### Alphabetical Order
 
-| Decompiler | Attributes | Lifter/IR | Release Date |
+| Decompiler | Attributes | Intermediate Language | Release Date |
 |------------|------------|-----------|--------------|
-| [angr decompiler](https://github.com/angr/angr/tree/master/angr/analyses/decompiler) | 🌐, 0️⃣ | [VEX](https://github.com/angr/vex/tree/8f48c00eadbb31d379b829c01792a9c4a21636d4), [AIL](https://github.com/angr/ailment) | Aug. 2019 |
-| [Binary Ninja](https://binary.ninja/) | 0️⃣ | [BNIL](https://docs.binary.ninja/dev/bnil-llil.html) | ? |
+| [angr decompiler](https://github.com/angr/angr/tree/master/angr/analyses/decompiler) | 0️⃣, 🌐 | [VEX](https://github.com/angr/vex/tree/8f48c00eadbb31d379b829c01792a9c4a21636d4), [AIL](https://github.com/angr/ailment) | Aug. 2019 |
+| [Binary Ninja](https://binary.ninja/) | 0️⃣ | [BNIL](https://docs.binary.ninja/dev/bnil-llil.html) | 2015 |
+| [dewolf](https://github.com/fkie-cad/dewolf) | 0️⃣, 🌐, 🔌 | BNIL | 2015 | 
+| [DREAM](https://github.com/CodeIntelligenceTesting/dream-ida) | 0️⃣, 🌐, 💀, 🔌 | Micro Code | 2015 |
+| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | 0️⃣, 🌐 | [P-Code](https://spinsel.dev/assets/2020-06-17-ghidra-brainfuck-processor-1/ghidra_docs/language_spec/html/pcoderef.html) | ? |
+| [Hoppper](https://www.hopperapp.com/) | 0️⃣ | ? | ? |
+| [IDA Pro (HexRays)](https://hex-rays.com/ida-pro/) | 0️⃣ | [Micro Code](https://gist.github.com/icecr4ck/6c744d489efbb07a32bb22e8a3c748e3) | 2007 | 
+| [JEB](https://www.pnfsoftware.com/) | 0️⃣ | ? | 2014 |
+| [Reko](https://github.com/uxmal/reko) | 0️⃣, 🌐 | ? | 2007 |
+| [Relyze](https://www.relyze.com/) | 0️⃣, 💀 | ? | ? |
+| [RetDec](https://github.com/avast/retdec) | 0️⃣, 🌐 | ? | ? |
+| [r2dec](https://github.com/wargio/r2dec-js) | 0️⃣, 🌐 | ? | ? |
+| [Snowman](https://github.com/x64dbg/snowman) | 0️⃣, 🌐, 💀 | ? | 2015 | 
+| [fcd](https://github.com/fay59/fcd) | 0️⃣, 🌐, 💀 | ? | 2015|
 
