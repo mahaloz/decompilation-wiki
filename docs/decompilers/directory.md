@@ -19,14 +19,14 @@ Each decompiler should also be listed with some minimal facts about their differ
 | [Binary Ninja](https://binary.ninja/) | 0️⃣ | [BNIL](https://docs.binary.ninja/dev/bnil-llil.html) | 2015 |
 | [dewolf](https://github.com/fkie-cad/dewolf) | 0️⃣, 🌐, 🔌 | BNIL | 2015 | 
 | [DREAM](https://github.com/CodeIntelligenceTesting/dream-ida) | 0️⃣, 🌐, 💀, 🔌 | Micro Code | 2015 |
-| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | 0️⃣, 🌐 | [P-Code](https://spinsel.dev/assets/2020-06-17-ghidra-brainfuck-processor-1/ghidra_docs/language_spec/html/pcoderef.html) | ? |
-| [Hoppper](https://www.hopperapp.com/) | 0️⃣ | ? | ? |
+| [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | 0️⃣, 🌐 | [P-Code](https://spinsel.dev/assets/2020-06-17-ghidra-brainfuck-processor-1/ghidra_docs/language_spec/html/pcoderef.html) | 2019 |
+| [Hoppper](https://www.hopperapp.com/) | 0️⃣ | ? | 2012 |
 | [IDA Pro (HexRays)](https://hex-rays.com/ida-pro/) | 0️⃣ | [Micro Code](https://gist.github.com/icecr4ck/6c744d489efbb07a32bb22e8a3c748e3) | 2007 | 
 | [JEB](https://www.pnfsoftware.com/) | 0️⃣ | ? | 2014 |
 | [Reko](https://github.com/uxmal/reko) | 0️⃣, 🌐 | ? | 2007 |
-| [Relyze](https://www.relyze.com/) | 0️⃣, 💀 | ? | ? |
-| [RetDec](https://github.com/avast/retdec) | 0️⃣, 🌐 | ? | ? |
-| [r2dec](https://github.com/wargio/r2dec-js) | 0️⃣, 🌐 | ? | ? |
+| [Relyze](https://www.relyze.com/) | 0️⃣, 💀 | ? | 2015 |
+| [RetDec](https://github.com/avast/retdec) | 0️⃣, 🌐 | ? | 2017 |
+| [r2dec](https://github.com/wargio/r2dec-js) | 0️⃣, 🌐 | ? | 2019 |
 | [Snowman](https://github.com/x64dbg/snowman) | 0️⃣, 🌐, 💀 | ? | 2015 | 
 | [fcd](https://github.com/fay59/fcd) | 0️⃣, 🌐, 💀 | ? | 2015|
 
