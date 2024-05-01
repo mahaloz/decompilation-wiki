@@ -57,6 +57,7 @@ nav:
   - applications/program_reconstruction.md
 - Misc 📦:
   - misc/blogs.md
+  - misc/talks.md
 markdown_extensions:
 - admonition
 - md_in_html

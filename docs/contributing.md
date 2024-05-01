@@ -5,6 +5,20 @@ Currently, the wiki is still in early development, so any PR is welcome.
 
 If there are ever questions on good contributions, opening issues and discussion on Discord are the best mediums for feedback.
 
+## Finding Places to Help
+Since the Decompilation Wiki aims to categorize and house a wide-ranging field, help is always needed to add and keep up with new content.
+If you are looking to contribute, but are not sure how the GitHub [Issues](https://github.com/mahaloz/decompilation-wiki/issues) listing is a great place to start.
+Any issue is a candidate for contribution, but ones marked as `help wanted` are likely the easiest to complete for newcomers. 
+
+Additionally, the wiki has a series of decompilation-related listings that constantly need unknown items added to it. 
+Some include:
+- [full decompilers](/decompilers/directory)
+- [tools](/decompilers/tools) 
+- [blogs](/misc/blogs) 
+- [talks](/misc/talks)
+
+If you are aware of any unlisted items in these, it is highly appreciated for you to make a PR to add them. 
+
 ## General Contributing Guide
 To make a change, open a PR on the [GitHub repo](https://github.com/mahaloz/decompilation-wiki) after [forking and making a branch](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/).
 There are two types of changes you might make while contributing to the wiki:

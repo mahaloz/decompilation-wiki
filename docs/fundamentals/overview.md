@@ -18,7 +18,6 @@ We include this area because it influences the methodologies for the previous th
 
 Other works, such as [function name recovery](/applied_research/symbol_recovery) can be found in the [Applied Research](/applied_research/overview) section.
 
-
 ## Generic Decompilation Pipeline
 
 Modern decompilers are comprised of fundamental components that can be directly mapped to each fundamental research area.
