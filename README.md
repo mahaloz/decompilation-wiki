@@ -8,7 +8,7 @@ The Decompilation Wiki is a collection of categorized information on all things 
 From real-world applications to cutting-edge research papers, the Decompilation Wiki has it all! Join our Discord below for active community engagement. To get involved, see our [contribution guide](/docs/contributing.md). 
 The Decompilation Wiki is still early in development, so any contribution is appreciated! 
 
-[![Discord](https://dcbadge.vercel.app/api/server/hE7prXNt7t)](https://discord.gg/hE7prXNt7t)
+[![Discord](https://dcbadge.vercel.app/api/server/eVySXH7ZQ8)](https://discord.gg/eVySXH7ZQ8)
 
 ## What Is Decompilation?
 Interestingly, the term "decompilation" and its definition are still argued about by researchers.
