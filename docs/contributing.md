@@ -1,6 +1,7 @@
 # Contributing Guide
 Thank you for wanting to contribute to the Decompilation Wiki! 
 Below are some simple tips to make requests for changes easier to review for the community. 
+Currently, the wiki is still in early development, so any PR is welcome. 
 
 If there are ever questions on good contributions, opening issues and discussion on Discord are the best mediums for feedback.
 
