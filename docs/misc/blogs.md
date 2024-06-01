@@ -12,5 +12,6 @@ A collection of decompilation blogs from the community.
 ### Alphabetical Order
 - [angr blog](https://angr.io/blog/) (💀, 💾, 🔍)
 - [Intranautic](https://intranautic.com/) (🔍)
+- [Kronotai](https://kronotai.com/wordpress/blog/) (💀, 💾, 🔍)
 - [mahaloz](https://mahaloz.re/) (💾, 🔍, 🌍)
 - [fcd](http://fay59.github.io/fcd/) (💀, 💾, 🔍)
