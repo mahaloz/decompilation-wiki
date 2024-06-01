@@ -20,7 +20,7 @@ Each decompiler should also be listed with some minimal facts about their differ
 | [dewolf](https://github.com/fkie-cad/dewolf) | 0️⃣, 🌐, 🔌 | BNIL | 2015 | 
 | [DREAM](https://github.com/CodeIntelligenceTesting/dream-ida) | 0️⃣, 🌐, 💀, 🔌 | Micro Code | 2015 |
 | [Ghidra](https://github.com/NationalSecurityAgency/ghidra) | 0️⃣, 🌐 | [P-Code](https://spinsel.dev/assets/2020-06-17-ghidra-brainfuck-processor-1/ghidra_docs/language_spec/html/pcoderef.html) | 2019 |
-| [Hoppper](https://www.hopperapp.com/) | 0️⃣ | ? | 2012 |
+| [Hopper](https://www.hopperapp.com/) | 0️⃣ | ? | 2012 |
 | [IDA Pro (HexRays)](https://hex-rays.com/ida-pro/) | 0️⃣ | [Micro Code](https://gist.github.com/icecr4ck/6c744d489efbb07a32bb22e8a3c748e3) | 2007 | 
 | [JEB](https://www.pnfsoftware.com/) | 0️⃣ | ? | 2014 |
 | [Reko](https://github.com/uxmal/reko) | 0️⃣, 🌐 | ? | 2007 |
