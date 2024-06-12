@@ -17,3 +17,4 @@ Most projects include a percent completion of the estimated program recompilatio
 - [Paper Mario](https://github.com/pmret/papermario)
 - [Super Mario 64](https://github.com/n64decomp/sm64)
 - [OpenNox](https://github.com/noxworld-dev/opennox)
+- [Minecraft: Pocket Edition (2011)](https://github.com/ReMinecraftPE/mcpe)
