@@ -7,7 +7,7 @@ Fundamental research in this area focuses on improving base decompilation across
 Some academic work has defined fundamental decompilation research to include three areas[^1], this wiki includes an extra fourth one:
 
 1. [Control Flow Graph Recovery](/fundamentals/cfg_recovery/overview): the extraction of (lifted) directed graphs indicating code execution
-2. [Type Recovery](/fundamentals/type_recovery/overview): the typing and discovery of variables in the program
+2. [Type Recovery](/fundamentals/type_recovery): the typing and discovery of variables in the program
 3. [Control Flow Structuring](/fundamentals/cf_structuring/overview): the conversion of a CFG to a linear code-like output
 4. [Quality Evaluation](/fundamentals/evaluation): the measurement of overall decompilation quality
 
