@@ -6,10 +6,10 @@ Since decompilation directly relies on this CFG, the recovery of it is considere
 
 This recovery can be broken up into multiple phases, some being optional depending on the decompilation target:
 
-1. [Disassembling](/fundamentals/cfg_recovery/disassembly): the conversion of binary code to its mnemonic instructions and operands 
-2. [Program Lifting](/fundamentals/cfg_recovery/lifting): the conversion disassembly to an intermediate language (IL) for better abstraction 
-3. [Function Recognition](/fundamentals/cfg_recovery/func_recov): the discovery of boundaries defining a function
-4. [Indirect Jump Resolving](/fundamentals/cfg_recovery/jump_res): the resolution of jumps that have no constant target(s). 
+1. [Disassembling](/fundamentals/cfg-recovery/disassembly): the conversion of binary code to its mnemonic instructions and operands 
+2. [Program Lifting](/fundamentals/cfg-recovery/lifting): the conversion disassembly to an intermediate language (IL) for better abstraction 
+3. [Function Recognition](/fundamentals/cfg-recovery/function-recovery): the discovery of boundaries defining a function
+4. [Indirect Jump Resolving](/fundamentals/cfg-recovery/jump-resolving): the resolution of jumps that have no constant target(s). 
 
 The second phase, program lifting, is only required if the decompiler aims to be architecture agnostic.
 Most decompilers will use an IL to make their later analyses more widely applicable. 

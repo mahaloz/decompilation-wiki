@@ -9,9 +9,9 @@ As such, we consider it an applied research area, with that target being human-c
 This section is ever-growing as new research areas are explored in decompilation. 
 Currently, the following areas exist:
 
-- [Symbol Recovery](/applied_research/symbol_recovery): recovering the names or high-level symbols that are associated with a function or variable
-- [Code Similarity](/applied_research/code_sim): measuring how similar (for various uses) some binary is to another
-- [Vulnerability Discovery](/applied_research/vuln_discovery): tuning decompilation to be better used for vulnerability discovery
+- [Symbol Recovery](/applied-research/symbol-recovery): recovering the names or high-level symbols that are associated with a function or variable
+- [Code Similarity](/applied-research/code-similarity): measuring how similar (for various uses) some binary is to another
+- [Vulnerability Discovery](/applied-research/vulnerability-discovery): tuning decompilation to be better used for vulnerability discovery
 
 
 ## Other Research 

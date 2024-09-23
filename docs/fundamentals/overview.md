@@ -6,9 +6,9 @@ Fundamental research in this area focuses on improving base decompilation across
 
 Some academic work has defined fundamental decompilation research to include three areas[^1], this wiki includes an extra fourth one:
 
-1. [Control Flow Graph Recovery](/fundamentals/cfg_recovery/overview): the extraction of (lifted) directed graphs indicating code execution
-2. [Type Recovery](/fundamentals/type_recovery): the typing and discovery of variables in the program
-3. [Control Flow Structuring](/fundamentals/cf_structuring/overview): the conversion of a CFG to a linear code-like output
+1. [Control Flow Graph Recovery](/fundamentals/cfg-recovery/overview): the extraction of (lifted) directed graphs indicating code execution
+2. [Type Recovery](/fundamentals/type-recovery/overview): the typing and discovery of variables in the program
+3. [Control Flow Structuring](/fundamentals/structuring/overview): the conversion of a CFG to a linear code-like output
 4. [Quality Evaluation](/fundamentals/evaluation): the measurement of overall decompilation quality
 
 Each of these fundamental areas affects the quality of one another in some way.
@@ -16,7 +16,7 @@ For instance, improvements to type recovery can directly improve the results of 
 With this in mind, we included the fourth area, quality evaluation in decompilation, as fundamental.
 We include this area because it influences the methodologies for the previous three areas and few works have standardized on metrics[^1][^2][^3].
 
-Other works, such as [function name recovery](/applied_research/symbol_recovery) can be found in the [Applied Research](/applied_research/overview) section.
+Other works, such as [function name recovery](/applied-research/symbol-recovery) can be found in the [Applied Research](/applied-research/overview) section.
 
 ## Generic Decompilation Pipeline
 
@@ -26,9 +26,9 @@ Most decompilers follow a pipeline flow that resembles the following[^3]:
 ![](/static/img/dec-pipeline.svg)
 
 The evaluation component is optional but has been used in the past for on-the-fly decision-making in other components like control flow structuring[^5].
-Each component can be implemented at various levels, such as the optional [lifting](/fundamentals/cfg_recovery/lifting) phase in control flow recovery. 
+Each component can be implemented at various levels, such as the optional [lifting](/fundamentals/cfg-recovery/lifting) phase in control flow recovery. 
 
-In the case of [neural decompilation](/fundamentals/neural_decompilation), most components are replaced by the machine learning model. 
+In the case of [neural decompilation](/fundamentals/neural-decompilation), most components are replaced by the machine learning model. 
 
 
 

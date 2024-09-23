@@ -19,7 +19,7 @@ Some include:
 
 If you are aware of any unlisted items in these, it is highly appreciated for you to make a PR to add them. 
 
-## General Contributing Guide
+## Update Guide
 To make a change, open a PR on the [GitHub repo](https://github.com/mahaloz/decompilation-wiki) after [forking and making a branch](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/).
 There are two types of changes you might make while contributing to the wiki:
 
@@ -45,6 +45,18 @@ When making changes here, it will be important to either include a citation or a
 Any links to community discussions are always appreciated, such as Reddit threads, Twitter threads, or blogs. 
 
 Additionally, any PRs that require larger discussion will likely be tied to a Discussion post on GitHub. 
+
+## Developing Locally
+The Decompilation Wiki is made with [mkdocs](https://www.mkdocs.org/).
+The best way to make changes to the wiki is to get a local version running.
+
+Simply install mkdocs and build the site:
+```
+pip install mkdocs
+mkdocs serve
+```
+
+The site should be launched on [http://127.0.0.1:8000/](http://127.0.0.1:8000/). 
 
 ---
 

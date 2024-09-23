@@ -2,7 +2,7 @@
 ## Introduction
 Schema-based structuring is a type of structuring that depends on a set of known compiler graph patterns[^1].
 With this in mind, a decompiler must know all of the compiler graph patterns to generate code that is structured[^3] (contains no gotos).
-An example of this type of structuring can be found in the [overview](/fundamentals/cf_structuring/overview) section. 
+An example of this type of structuring can be found in the [overview](/fundamentals/structuring/overview) section. 
 Schema-based structuring techniques are the most popular techniques among decompilers[^1][^2][^4][^5][^6].
 
 ## Example Graph Patterns

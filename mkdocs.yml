@@ -35,26 +35,26 @@ nav:
 - Fundamentals 🔍:
   - fundamentals/overview.md
   - Control Flow Graph Recovery:
-    - fundamentals/cfg_recovery/overview.md
-    - fundamentals/cfg_recovery/disassembly.md
-    - fundamentals/cfg_recovery/lifting.md
-    - fundamentals/cfg_recovery/func_recov.md
-    - fundamentals/cfg_recovery/jump_res.md
-  - fundamentals/type_recovery.md
+    - fundamentals/cfg-recovery/overview.md
+    - fundamentals/cfg-recovery/disassembly.md
+    - fundamentals/cfg-recovery/lifting.md
+    - fundamentals/cfg-recovery/function-recovery.md
+    - fundamentals/cfg-recovery/jump-resolving.md
+  - fundamentals/type-recovery.md
   - Control Flow Structuring:
-    - fundamentals/cf_structuring/overview.md
-    - fundamentals/cf_structuring/schema-based.md
-    - fundamentals/cf_structuring/gotoless.md
+    - fundamentals/structuring/overview.md
+    - fundamentals/structuring/schema-based.md
+    - fundamentals/structuring/gotoless.md
   - fundamentals/evaluation.md
-  - fundamentals/neural_decompilation.md
+  - fundamentals/neural-decompilation.md
 - Applied Research ⚙️:
-  - applied_research/overview.md
-  - applied_research/symbol_recovery.md
-  - applied_research/code_sim.md
-  - applied_research/vuln_discovery.md
+  - applied-research/overview.md
+  - applied-research/symbol-recovery.md
+  - applied-research/code-similarity.md
+  - applied-research/vulnerability-discovery.md
 - Applications 🌍:
   - applications/overview.md
-  - applications/program_reconstruction.md
+  - applications/program-reconstruction.md
 - Misc 📦:
   - misc/blogs.md
   - misc/talks.md
