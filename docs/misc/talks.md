@@ -4,6 +4,7 @@ All talks listed should be either at a conference or university, where talks are
 Exceptions are made for especially impactful talks.
 
 ### Reverse Chronological Order 
+- ["30 Years, From Compilation Student to Decompilation Pioneer."](https://www.youtube.com/watch?v=wo3xEa2elp4) Christina Cifuentes. LABScon24.
 - ["BTD: Unleashing the Power of Decompilation for x86 Deep Neural Network Executables."](https://www.youtube.com/watch?v=NDfj8JiZMX0) Zhibo Liu. Blackhat 2023.
 - [“Modern Approaches in Human-Centric Decompilation.”](https://youtu.be/R13tHWScclE) Zion Leonahenahe Basque. Ohio State University 2023.
 - [“Bridging the gap in the static and dynamic analysis of binaries through decompiler tomfoolery!”](https://www.youtube.com/watch?v=-J8fGMt6UmE&t=22441s) Zion Leonahenahe Basque. CactusCon 2023.
