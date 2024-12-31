@@ -52,6 +52,8 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Metroid Prime 2](https://github.com/PrimeDecomp/echoes)                                                          | GameCube          |           |
 | [Paper Mario: The Thousand-Year Door](https://github.com/NWPlayer123/PaperMario2)                                 | GameCube          |           |
 | [Pikmin 1 & 2](https://github.com/projectPiki/pikmin)                                                             | GameCube          |           |
+| [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)                             | GameCube          |           |
+| [Super Mario Sunshine](https://github.com/doldecomp/sms)                                                          | GameCube          |           |
 | [Super Smash Bros. Melee](https://github.com/doldecomp/melee)                                                     | GameCube          |           |
 | [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)                                          | GameCube          |           |
 | [The Legend of Zelda: Wind Waker](https://github.com/zeldaret/tww)                                                | GameCube          |           |
@@ -81,7 +83,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)                                                 | N64               |           |
 | [Wave Racer 64](https://github.com/LLONSIT/Wave-Race-64)                                                          | N64               |           |
 | [Yoshi's Story](https://github.com/decompals/yoshis-story)                                                        | N64               |           |
-| [Pokémon HeartGold and SoulSilver](https://github.com/pret/pokeheartgold)                                          | NDS               |           |
+| [Pokémon HeartGold and SoulSilver](https://github.com/pret/pokeheartgold)                                         | NDS               |           |
 | [Rhythm Heaven](https://github.com/patataofcourse/rhgold)                                                         | NDS               |           |
 | [Touhou Project 1](https://rec98.nmlgc.net/)                                                                      | NEC PC-9800       | ✅         |
 | [Touhou Project 2](https://rec98.nmlgc.net/)                                                                      | NEC PC-9800       |           |
@@ -92,7 +94,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Carmageddon](https://github.com/dethrace-labs/dethrace)                                                          | PC                |           |
 | [Deus Ex: Human Revolution - Director's Cut](https://github.com/rrika/cdcEngineDXHR)                              | PC                |           |
 | [Final Fantasy VII](https://github.com/ficed/Braver)                                                              | PC                |           |
-| [Lego Island](https://github.com/isledecomp/isle)                                                                 | PC                |           |
+| [Lego Island](https://github.com/isledecomp/isle)                                                                 | PC                | ✅         |
 | [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)                                      | PC                |           |
 | [Spider-Man (Neversoft)](https://github.com/krystalgamer/spidey-decomp)                                           | PC                |           |
 | [Castlevania: Symphony of the Night](https://github.com/Xeeynamo/sotn-decomp)                                      | PS1               |           |
@@ -117,13 +119,18 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Super Mario World 2: Yoshi's Island](https://github.com/brunovalads/yoshisisland-disassembly)                    | SNES              | ✅         |
 | [Super Metroid](https://github.com/snesrev/sm)                                                                    | SNES              | ✅         |
 | [The Legend of Zelda: A Link to the Past](https://github.com/snesrev/zelda3)                                      | SNES              | ✅         |
-| [Super Mario Oddysey](https://github.com/MonsterDruide1/OdysseyDecomp)                                            | Switch            |           |
+| [Minecraft: Nintendo Switch Edition](https://github.com/GRAnimated/MinecraftLCE)                                  | Switch            |           |
+| [Super Mario 3D World + Bowser's Fury](https://github.com/shibbo/3dcomp)                                          | Switch            |           |
+| [Super Mario Odyssey](https://github.com/MonsterDruide1/OdysseyDecomp)                                            | Switch            |           |
 | [The Legend of Zelda: Breath of the Wild](https://github.com/zeldaret/botw)                                       | Switch            |           |
 | [Mario Kart Wii](https://github.com/riidefi/mkw)                                                                  | Wii               |           |
-| [Super Mario Galaxy](https://github.com/shibbo/Petari)                                                            | Wii               |           |
+| [Super Mario Galaxy](https://github.com/SMGCommunity/Petari)                                                      | Wii               |           |
+| [Super Mario Galaxy 2](https://github.com/SMGCommunity/Garigari)                                                  | Wii               |           |
 | [Super Paper Mario](https://github.com/SeekyCt/spm-decomp)                                                        | Wii               |           |
 | [Xenoblade Chronicles](https://github.com/CelestialAmber/xenoblade)                                               | Wii               |           |
-| [Halo: Combat Evolved](https://github.com/halo-re/halo)                                                           | XBOX              |           |
+| [New Super Mario Bros. U](https://github.com/aboood40091/red-pro2/tree/master)                                    | Wii U             |           |
+| [Halo: Combat Evolved](https://github.com/halo-re/halo)                                                           | Xbox              |           |
+| [Minecraft: Xbox 360 Edition](https://github.com/AleBello7276/Minecraft-Xbox-360-Decompilation)                   | Xbox 360          |           |
 | [Minecraft: Pocket Edition (2011)](https://github.com/ReMinecraftPE/mcpe)                                         | iOS               | ✅         |
 
 [^1]: https://www.resetera.com/threads/decompilation-projects-ot-free-next-gen-update-for-your-favorite-classics-jak-ii-pc-port-out-in-beta.682687/
