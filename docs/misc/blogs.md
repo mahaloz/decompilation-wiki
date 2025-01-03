@@ -14,4 +14,5 @@ A collection of decompilation blogs from the community.
 - [Intranautic](https://intranautic.com/) (🔍)
 - [Kronotai](https://kronotai.com/wordpress/blog/) (💀, 💾, 🔍)
 - [mahaloz](https://mahaloz.re/) (💾, 🔍, 🌍)
+- [msm](https://msm.lt/posts/) (🔍, 🌍)
 - [fcd](http://fay59.github.io/fcd/) (💀, 💾, 🔍)
