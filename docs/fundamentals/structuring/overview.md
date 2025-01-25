@@ -33,7 +33,7 @@ For example, the attributed control flow graph below can be used as input:
                             +-----+
 ```
 
-Using a [schmea-based](/fundamentals/structuring/schema-based) structuring algorithm, the graph can be turned into the following C:
+Using a [schema-based](/fundamentals/structuring/schema-based) structuring algorithm, the graph can be turned into the following C:
 
 ```c
 A();
