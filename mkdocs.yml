@@ -45,6 +45,7 @@ nav:
     - fundamentals/structuring/overview.md
     - fundamentals/structuring/schema-based.md
     - fundamentals/structuring/gotoless.md
+    - fundamentals/structuring/loop-reduction.md
   - fundamentals/evaluation.md
   - fundamentals/neural-decompilation.md
 - Applied Research ⚙️:
