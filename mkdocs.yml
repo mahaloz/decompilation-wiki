@@ -43,7 +43,9 @@ nav:
   - fundamentals/type-recovery.md
   - Control Flow Structuring:
     - fundamentals/structuring/overview.md
-    - fundamentals/structuring/schema-based.md
+    - Schema Based:
+      - fundamentals/structuring/schema-based/schema-based.md
+      - fundamentals/structuring/schema-based/switch-structuring.md
     - fundamentals/structuring/gotoless.md
     - fundamentals/structuring/loop-reduction.md
   - fundamentals/evaluation.md
