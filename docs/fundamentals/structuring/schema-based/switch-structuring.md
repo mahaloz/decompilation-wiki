@@ -221,7 +221,7 @@ Identifying the first node is done by checking for if statements that meet a set
 We then check consecutive if structures to see if they meet this pattern, and if we can collect a sufficient number of statements we can condense it down into a switch.
 
 This however obviously wouldn't work in the case of STs, which uses > and < comparators. 
-When STs occur few decompilers seem correctly identify this, of those that do there is 2 choices: simplify, but maintain if statements (Hex-Rays) or convert to a switch statement ([angr](https://github.com/angr/angr/blob/73cff39400821e1826906e1944b332c2fda12f2c/angr/analyses/decompiler/region_simplifiers/switch_cluster_simplifier.py#L51)).
+When STs occur few decompilers seem correctly identify this, of those that do there is 2 choices: simplify, but maintain if statements (Hex-Rays) or convert to a switch statement ([angr](https://github.com/angr/angr/blob/73cff39400821e1826906e1944b332c2fda12f2c/angr/analyses/decompiler/region_simplifiers/switch_cluster_simplifier.py#L510)).
 The addition to support this involves simply continuing to traverse for == or != operators to find the leaf nodes of the STs.
 
 ### Switch Candidates
