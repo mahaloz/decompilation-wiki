@@ -40,7 +40,13 @@ nav:
     - fundamentals/cfg-recovery/lifting.md
     - fundamentals/cfg-recovery/function-recovery.md
     - fundamentals/cfg-recovery/jump-resolving.md
-  - fundamentals/type-recovery.md
+  - Type Recovery:
+    - fundamentals/type-recovery/overview.md
+    - fundamentals/type-recovery/var-detection.md
+    - Lattice Based:
+      - fundamentals/type-recovery/lattice-based1.md
+      - fundamentals/type-recovery/lattice-based2.md
+      - fundamentals/type-recovery/lattice-based3.md
   - Control Flow Structuring:
     - fundamentals/structuring/overview.md
     - Schema Based:
