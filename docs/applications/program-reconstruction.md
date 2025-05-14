@@ -46,7 +46,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Animal Crossing](https://github.com/Prakxo/ac-decomp/)                                                           | GameCube          |           |
 | [Chibi-Robo: PIA](https://github.com/eavpsp/cbr_decomp)                                                           | GameCube          |           |
 | [Kirby Air Ride](https://github.com/doldecomp/kar)                                                                | GameCube          |           |
-| [Luigi's Mansion](https://github.com/Sage-of-Mirrors/zmansion)                                                    | GameCube          |           |
+| [Luigi's Mansion](https://github.com/Moddimation/Yasiki)                                                    | GameCube          |           |
 | [Mario Kart: Double Dash!!](https://github.com/SwareJonge/mkdd)                                                   | GameCube          |           |
 | [Metroid Prime](https://github.com/PrimeDecomp/prime)                                                             | GameCube          |           |
 | [Metroid Prime 2](https://github.com/PrimeDecomp/echoes)                                                          | GameCube          |           |
