@@ -47,6 +47,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Animal Crossing](https://github.com/acreteam/ac-decomp)                                                          | GameCube          |           |
 | [Chibi-Robo: PIA](https://github.com/eavpsp/cbr_decomp)                                                           | GameCube          |           |
 | [Doshin the Giant](https://github.com/break-core/doshin-gc)                                                       | GameCube          |           |
+| [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)                                         | GameCube          |           |
 | [Homeland](https://github.com/bttrdrgn/homeland)                                                                  | GameCube          |           |
 | [Kirby Air Ride](https://github.com/doldecomp/kar)                                                                | GameCube          |           |
 | [Luigi's Mansion](https://github.com/Moddimation/Yasiki)                                                          | GameCube          |           |
@@ -58,6 +59,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Mario Superstar Baseball](https://github.com/roeming/mssbdecomp)                                                 | GameCube          |           |
 | [Metroid Prime 1](https://github.com/PrimeDecomp/prime)                                                           | GameCube          |           |
 | [Metroid Prime 2](https://github.com/PrimeDecomp/echoes)                                                          | GameCube          |           |
+| [Naruto: Gekitō Ninja Taisen! 4](https://github.com/doldecomp/gnt4)                                               | GameCube          |           |
 | [Paper Mario: The Thousand-Year Door](https://github.com/doldecomp/ttyd)                                          | GameCube          |           |
 | [Pikmin 1](https://github.com/projectPiki/pikmin)                                                                 | GameCube          |           |
 | [Pikmin 2](https://github.com/projectPiki/pikmin2)                                                                | GameCube          |           |
@@ -67,8 +69,10 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Sonic Adventure DX](https://github.com/doldecomp/sadx)                                                           | GameCube          |           |
 | [Sonic Riders](https://github.com/doldecomp/sonicriders)                                                          | GameCube          |           |
 | [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)                             | GameCube          |           |
+| [Summoner: A Goddess Reborn](https://github.com/Charlese2/sgr)                                                    | GameCube          |           |
 | [Super Mario Sunshine](https://github.com/doldecomp/sms)                                                          | GameCube          |           |
 | [Super Smash Bros. Melee](https://github.com/doldecomp/melee)                                                     | GameCube          |           |
+| [The Incredibles](https://github.com/seilweiss/incredibles)                                                       | GameCube          |           |
 | [The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww)                                            | GameCube          |           |
 | [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)                                          | GameCube          |           |
 | [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)                                                 | Gamecube          |           |
@@ -78,7 +82,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Ristar](https://github.com/sonicretro/ristar)                                                                    | MegaDrive         |           |
 | [Streets of Rage 2](https://www.sor2newera.com/)                                                                  | MegaDrive         | ✅         |
 | [AeroGauge](https://github.com/llonsit/aerogauge)                                                                 | N64               |           |
-| [Aidyn Chronicles](https://github.com/blackgamma7/aidyn)                                                          | N64               |           |
+| [Aidyn Chronicles: The First Mage](https://github.com/blackgamma7/aidyn)                                          | N64               |           |
 | [Animal Forest](https://github.com/zeldaret/af)                                                                   | N64               |           |
 | [Banjo-Kazooie](https://gitlab.com/banjo.decomp/banjo-kazooie)                                                    | N64               | ✅         |
 | [Banjo-Tooie](https://github.com/mr-wiseguy/banjo-tooie)                                                          | N64               |           |
