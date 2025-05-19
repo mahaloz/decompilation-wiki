@@ -60,6 +60,8 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Metroid Prime 1](https://github.com/PrimeDecomp/prime)                                                           | GameCube          |           |
 | [Metroid Prime 2](https://github.com/PrimeDecomp/echoes)                                                          | GameCube          |           |
 | [Naruto: Gekitō Ninja Taisen! 4](https://github.com/doldecomp/gnt4)                                               | GameCube          |           |
+| [Need for Speed: Most Wanted](https://github.com/dbalatoni13/nfsmw)                                               | GameCube          |           |
+| [Need for Speed: Underground](https://github.com/dbalatoni13/nfsug)                                               | GameCube          |           |
 | [Paper Mario: The Thousand-Year Door](https://github.com/doldecomp/ttyd)                                          | GameCube          |           |
 | [Pikmin 1](https://github.com/projectPiki/pikmin)                                                                 | GameCube          |           |
 | [Pikmin 2](https://github.com/projectPiki/pikmin2)                                                                | GameCube          |           |
@@ -139,12 +141,14 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Virtual Pro Wrestling 2](https://github.com/aki-club/vpw2)                                                       | N64               |           |
 | [Wave Race 64](https://github.com/LLONSIT/Wave-Race-64)                                                           | N64               |           |
 | [Yoshi's Story](https://github.com/decompals/yoshis-story)                                                        | N64               |           |
+| [Castlevania: Order of Ecclesia](https://github.com/lagolunatic/ooe)                                              | NDS               |           |
 | [Mario & Luigi - Partners in Time](https://github.com/rainchus/partnersintime-decomp)                             | NDS               |           |
 | [Mario Party DS](https://github.com/mariopartyrd/mariopartyds)                                                    | NDS               |           |
 | [Pokémon Diamond and Pearl](https://github.com/pret/pokediamond)                                                  | NDS               |           |
 | [Pokémon HeartGold and SoulSilver](https://github.com/pret/pokeheartgold)                                         | NDS               |           |
 | [Rhythm Heaven](https://github.com/patataofcourse/rhgold)                                                         | NDS               |           |
 | [The Legend of Zelda: Phantom Hourglass](https://github.com/zeldaret/ph)                                          | NDS               |           |
+| [The Legend of Zelda: Spirit Tracks](https://github.com/yanis002/st)                                              | NDS               |           |
 | [Touhou Project 1](https://rec98.nmlgc.net/)                                                                      | NEC PC-9800       | ✅         |
 | [Touhou Project 2](https://rec98.nmlgc.net/)                                                                      | NEC PC-9800       |           |
 | [Touhou Project 3](https://rec98.nmlgc.net/)                                                                      | NEC PC-9800       |           |
