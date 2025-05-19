@@ -77,7 +77,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [The Incredibles](https://github.com/seilweiss/incredibles)                                                       | GameCube          |           |
 | [The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww)                                            | GameCube          |           |
 | [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)                                          | GameCube          |           |
-| [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)                                                 | Gamecube          |           |
+| [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)                                                 | GameCube          |           |
 | [Phantasy Star II](https://github.com/lory90/ps2disasm)                                                           | MegaDrive         |           |
 | [Phantasy Star III](https://github.com/lory90/ps3disasm)                                                          | MegaDrive         |           |
 | [Phantasy Star IV](https://github.com/lory90/ps4disasm)                                                           | MegaDrive         |           |
