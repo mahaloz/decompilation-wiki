@@ -180,7 +180,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Driver 2](https://github.com/OpenDriver2/REDRIVER2)                                                              | PS1               | ✅         |
 | [Legacy of Kain: Soul Reaver](https://github.com/fmil95/soul-re)                                                  | PS1               |           |
 | [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)                          | PS1               | ✅         |
-| [Medievil 1](https://github.com/MediEvilDecompilation/medievil-decomp)                                            | PS1               |           |
+| [MediEvil 1](https://github.com/MediEvilDecompilation/medievil-decomp)                                            | PS1               |           |
 | [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)                                                   | PS1               |           |
 | [R4: Ridge Racer Type 4](https://wakelet.com/wake/GeXGnrhyIWM-zbHJ4KURI)                                          | PS1               |           |
 | [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)                                                        | PS1               |           |
@@ -210,7 +210,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Final Fantasy IV](https://github.com/everything8215/ff4)                                                         | SNES              |           |
 | [Final Fantasy VI](https://github.com/everything8215/ff6)                                                         | SNES              |           |
 | [Goof Troop](https://github.com/Yoshifanatic1/Goof-Troop-Disassembly)                                             | SNES              |           |
-| [Super Ghouls n' Ghosts](https://github.com/fredyeye/super-ghouls-n-ghosts-disassembly)                           | SNES              |           |
+| [Super Ghouls 'n Ghosts](https://github.com/fredyeye/super-ghouls-n-ghosts-disassembly)                           | SNES              |           |
 | [Super Mario RPG](https://github.com/Yoshifanatic1/Super-Mario-RPG-Disassembly)                                   | SNES              |           |
 | [Super Mario World](https://github.com/IsoFrieze/SMWDisX)                                                         | SNES              |           |
 | [Super Mario World 2: Yoshi's Island](https://github.com/brunovalads/yoshisisland-disassembly)                    | SNES              | ✅         |
