@@ -29,6 +29,8 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Super Mario Land](https://github.com/kaspermeerts/supermarioland)                                                | GB                | ✅         |
 | [Super Mario Land 3: Wario Land](https://github.com/Kak2X/wl)                                                     | GB                | ✅         |
 | [Banjo-Kazooie: Grunty's Revenge](https://github.com/jellees/bkgr)                                                | GBA               |           |
+| [Breath of Fire](https://github.com/Normmatt/bof)                                                                 | GBA               |           |
+| [Fire Emblem: The Binding Blade](https://github.com/StanHash/fe6)                                                 | GBA               |           |
 | [Fire Emblem: The Sacred Stones](https://github.com/FireEmblemUniverse/fireemblem8u)                              | GBA               |           |
 | [Golden Sun](https://github.com/gsret/goldensun)                                                                  | GBA               |           |
 | [Harvest Moon: Friends of Mineral Town](https://github.com/StanHash/fomt)                                         | GBA               |           |
@@ -37,8 +39,11 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Pokémon Emerald](https://github.com/pret/pokeemerald)                                                            | GBA               |           |
 | [Pokémon FireRed and LeafGreen](https://github.com/pret/pokefirered)                                              | GBA               |           |
 | [Pokémon Mystery Dungeon: Red Rescue Team](https://github.com/pret/pmd-red)                                       | GBA               |           |
+| [Pokémon Pinball: Ruby and Sapphire](https://github.com/pret/pokepinballrs)                                       | GBA               |           |
 | [Pokémon Ruby and Sapphire](https://github.com/pret/pokeruby)                                                     | GBA               |           |
 | [Sonic Advance 2](https://github.com/freshollie/sa2)                                                              | GBA               |           |
+| [Summon Night Swordcraft Story 3](https://github.com/jiangzhengwenjz/csm3)                                        | GBA               |           |
+| [Super Mario Advance 2: Super Mario World](https://github.com/atasro2/sma2)                                       | GBA               |           |
 | [The Legend of Zelda: Minish Cap](https://github.com/zeldaret/tmc)                                                | GBA               | ✅         |
 | [Links Awakening DX](https://github.com/zladx/LADX-Disassembly)                                                   | GBC               |           |
 | [Pokémon Crystal](https://github.com/pret/pokecrystal)                                                            | GBC               | ✅         |
@@ -226,6 +231,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Super Paper Mario](https://github.com/SeekyCt/spm-decomp)                                                        | Wii               |           |
 | [Super Smash Bros. Brawl](https://github.com/doldecomp/brawl)                                                     | Wii               |           |
 | [The Legend of Zelda: Skyward Sword](https://github.com/zeldaret/ss)                                              | Wii               |           |
+| [Wii Sports](https://github.com/doldecomp/ogws)                                                                   | Wii               |           |
 | [Xenoblade Chronicles](https://github.com/xbret/xenoblade)                                                        | Wii               |           |
 | [New Super Mario Bros. U](https://github.com/aboood40091/red-pro2/tree/master)                                    | Wii U             |           |
 | [Halo: Combat Evolved](https://github.com/halo-re/halo)                                                           | Xbox              |           |
