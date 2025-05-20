@@ -15,10 +15,12 @@ Many of the games in this list were collected from GitHub projects, individuals,
 
 | Game                                                                                                              | Original Platform | Completed |
 |-------------------------------------------------------------------------------------------------------------------|-------------------|-----------|
+| [Paper Mario: Sticker Star](https://github.com/darxoon/leaflitter)                                                | 3DS               |           |
 | [Super Mario 3D Land](https://github.com/3dsdecomp/RedPepper)                                                     | 3DS               |           |
 | [The Legend of Zelda: Ocarina of Time 3D](https://github.com/zeldaret/oot3d)                                      | 3DS               |           |
 | [Ambermoon](https://github.com/Pyrdacor/Ambermoon.net)                                                            | Amiga             | ✅         |
 | [The Settlers I](https://github.com/freeserf/freeserf)                                                            | DOS               | ✅         |
+| [Tokyo Bus Guide](https://github.com/lhsazevedo/tbg-decomp)                                                       | Dreamcast         |           |
 | [Donkey Kong '94](https://github.com/CelestialAmber/DKGBDisasm)                                                   | GB                | ✅         |
 | [Kirby's Dream Land](https://github.com/huderlem/kirbydreamland)                                                  | GB                | ✅         |
 | [Metroid II: Return of Samus](https://github.com/Vashy777/metroid2)                                               | GB                |           |
@@ -97,6 +99,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Conker's Bad Fur Day](https://github.com/mkst/conker)                                                            | N64               |           |
 | [Chameleon Twist 1](https://github.com/chameleontwistret/ctv1.0-jp)                                               | N64               |           |
 | [Chameleon Twist 2](https://github.com/chameleontwistret/ct2v1.0-jp)                                              | N64               |           |
+| [Dark Rift](https://github.com/unnunu/darkrift)                                                                   | N64               |           |
 | [Diddy Kong Racing](https://github.com/DavidSM64/Diddy-Kong-Racing)                                               | N64               |           |
 | [Dinosaur Planet](https://github.com/zestydevy/dinosaur-planet)                                                   | N64               |           |
 | [Donkey Kong 64](https:/gitlab.com/dk64_decomp/dk64)                                                              | N64               |           |
@@ -112,6 +115,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Goldeneye 007](https://gitlab.com/kholdfuzion/goldeneye_src)                                                     | N64               |           |
 | [Harvest Moon 64](https://github.com/harvestwhisperer/hm64-decomp)                                                | N64               |           |
 | [Kirby 64: The Crystal Shards](https://github.com/kirby64ret/kirby64)                                             | N64               |           |
+| [Lego Racers](https://github.com/marijnvdwerf/lego-racers)                                                        | N64               |           |
 | [Mario Golf](https://github.com/monde-lointain/mariogolf64)                                                       | N64               |           |
 | [Mario Kart 64](https://github.com/n64decomp/mk64)                                                                | N64               | ✅        |              
 | [Mario Party 1](https://github.com/mariopartyrd/marioparty)                                                       | N64               |           |
@@ -178,8 +182,9 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Tomb Raider 1](https://github.com/rr-/Tomb1Main)                                                                 | PS1               | ✅         |
 | [Tomb Raider 1-5](https://github.com/XProger/OpenLara)                                                            | PS1               |           |
 | [Vandal Hearts](https://github.com/shao113/vh)                                                                    | PS1               |           |
+| [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)                                                   | PS1               |           |
 | [Fatal Frame](https://github.com//Mikompilation/Himuro)                                                           | PS2               |           |
-| [Fatal Frame 2: Crimson Butterfly](https://github.com/Mikompilation/Mikompilation)                                | PS2               |           |
+| [Fatal Frame 2: Crimson Butterfly](https://github.com/Mikompilation/Minakami)                                     | PS2               |           |
 | [Jak II](https://github.com/open-goal/jak-project)                                                                | PS2               | ✅         |
 | [Jak and Daxter: The Precursor Legacy](https://github.com/open-goal/jak-project)                                  | PS2               | ✅         |
 | [Kingdom Hearts](https://github.com/ethteck/kh1)                                                                  | PS2               |           |
@@ -188,6 +193,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [PaRappa the Rapper 2](https://github.com/parappadev/parappa2)                                                    | PS2               |           |
 | [Resident Evil - Code: Veronica X](https://github.com/fmil95/recvx-decomp)                                        | PS2               |           |
 | [Sly Cooper and the Thievius Raccoonus](https://github.com/TheOnlyZac/sly1)                                       | PS2               |           |
+| [Street Fighter III: 3rd Strike](https://github.com/apstygo/sfiii-decomp)                                         | PS2               |           |
 | [Twisted Metal: Black](https://github.com/abelbriggs1/tmb_decomp)                                                 | PS2               |           |
 | [Xenosaga Episode 1: Der Wille zur Macht](https://github.com/squareman/xenosaga)                                  | PS2               |           |
 | [Demon's Crest](https://github.com/fredyeye/various-game-disassembly)                                             | SNES              |           |
