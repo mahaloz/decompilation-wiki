@@ -85,6 +85,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww)                                            | GameCube          |           |
 | [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)                                          | GameCube          |           |
 | [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)                                                 | GameCube          |           |
+| [Phantasy Star I](https://github.com/lory90/ps1disasm)                                                            | MasterSystem      |           |
 | [Phantasy Star II](https://github.com/lory90/ps2disasm)                                                           | MegaDrive         |           |
 | [Phantasy Star III](https://github.com/lory90/ps3disasm)                                                          | MegaDrive         |           |
 | [Phantasy Star IV](https://github.com/lory90/ps4disasm)                                                           | MegaDrive         |           |
@@ -122,7 +123,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Kirby 64: The Crystal Shards](https://github.com/kirby64ret/kirby64)                                             | N64               |           |
 | [Lego Racers](https://github.com/marijnvdwerf/lego-racers)                                                        | N64               |           |
 | [Mario Golf](https://github.com/monde-lointain/mariogolf64)                                                       | N64               |           |
-| [Mario Kart 64](https://github.com/n64decomp/mk64)                                                                | N64               | ✅        |              
+| [Mario Kart 64](https://github.com/n64decomp/mk64)                                                                | N64               | ✅         |        
 | [Mario Party 1](https://github.com/mariopartyrd/marioparty)                                                       | N64               |           |
 | [Mario Party 2](https://github.com/mariopartyrd/marioparty2)                                                      | N64               |           |
 | [Mario Party 3](https://github.com/mariopartyrd/marioparty3)                                                      | N64               |           |
