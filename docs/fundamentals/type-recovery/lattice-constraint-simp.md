@@ -69,18 +69,24 @@ Contravariant is the reverse i.e. if A <: B then B.label <: A.label.
 Deduction rules are a way of drawing conclusions from a set of statements know as premises.
 We write it in the following form:
 
-![](/static/img/deduction1.png)
+$$
+\frac{P_1 \; P_2 \; \ldots \; P_3}{C}
+$$
 
 This is useful because we can write our covariant and contravariant definitions using it.
 \+ is used for covariant and - is for contravariant. 
 
 Covariant:
 
-![](/static/img/deduction2.png)
+$$
+\frac{A <: B \quad \text{Var} \; B.\text{label} \quad \langle \text{label} \rangle = +}{A.\text{label} <: B.\text{label}}
+$$
 
 Contravariant:
 
-![](/static/img/deduction3.png)
+$$
+\frac{A <: B \quad \text{Var} \; B.\text{label} \quad \langle \text{label} \rangle = -}{B.\text{label} <: A.\text{label}}
+$$
 
 For our implementation we implicitly use these rules over the simplification process discussed in the following sections.
 
