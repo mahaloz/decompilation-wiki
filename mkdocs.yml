@@ -40,7 +40,10 @@ nav:
     - fundamentals/cfg-recovery/lifting.md
     - fundamentals/cfg-recovery/function-recovery.md
     - fundamentals/cfg-recovery/jump-resolving.md
-  - fundamentals/type-recovery.md
+  - Type Recovery:
+    - fundamentals/type-recovery/overview.md
+    - Lattice Based:
+      - fundamentals/type-recovery/lattice-constraint-simp.md
   - Control Flow Structuring:
     - fundamentals/structuring/overview.md
     - Schema Based:
