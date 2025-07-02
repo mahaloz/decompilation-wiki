@@ -57,9 +57,9 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)                                         | GameCube          |           |
 | [Homeland](https://github.com/bttrdrgn/homeland)                                                                  | GameCube          |           |
 | [Kirby Air Ride](https://github.com/doldecomp/kar)                                                                | GameCube          |           |
-| [Luigi's Mansion](https://github.com/Moddimation/Yasiki)                                                          | GameCube          |           |
+| [Luigi's Mansion](https://github.com/sage-of-mirrors/zmansion)                                                    | GameCube          |           |
 | [Mario Kart: Double Dash!!](https://github.com/SwareJonge/mkdd)                                                   | GameCube          |           |
-| [Mario Party 4](https://github.com/mariopartyrd/marioparty4)                                                      | GameCube          |           |
+| [Mario Party 4](https://github.com/mariopartyrd/marioparty4)                                                      | GameCube          | ✅         |
 | [Mario Party 5](https://github.com/mariopartyrd/marioparty5)                                                      | GameCube          |           |
 | [Mario Party 6](https://github.com/mariopartyrd/marioparty6)                                                      | GameCube          |           |
 | [Mario Party 7](https://github.com/mariopartyrd/marioparty7)                                                      | GameCube          |           |
@@ -79,11 +79,13 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Sonic Riders](https://github.com/doldecomp/sonicriders)                                                          | GameCube          |           |
 | [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)                             | GameCube          |           |
 | [Summoner: A Goddess Reborn](https://github.com/Charlese2/sgr)                                                    | GameCube          |           |
+| [Super Mario Strikers](https://github.com/yannicksuter/smstrikers-decomp)                                         | GameCube          |           |
 | [Super Mario Sunshine](https://github.com/doldecomp/sms)                                                          | GameCube          |           |
 | [Super Smash Bros. Melee](https://github.com/doldecomp/melee)                                                     | GameCube          |           |
 | [The Incredibles](https://github.com/seilweiss/incredibles)                                                       | GameCube          |           |
 | [The Legend of Zelda: The Wind Waker](https://github.com/zeldaret/tww)                                            | GameCube          |           |
 | [The Legend of Zelda: Twilight Princess](https://github.com/zeldaret/tp)                                          | GameCube          |           |
+| [The SpongeBob SquarePants Movie](https://github.com/bfbbdecomp/tssm)                                             | GameCube          |           |
 | [Ty the Tasmanian Tiger](https://github.com/1superchip/ty-decomp)                                                 | GameCube          |           |
 | [Phantasy Star I](https://github.com/lory90/ps1disasm)                                                            | MasterSystem      |           |
 | [Phantasy Star II](https://github.com/lory90/ps2disasm)                                                           | MegaDrive         |           |
@@ -152,6 +154,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Wave Race 64](https://github.com/LLONSIT/Wave-Race-64)                                                           | N64               |           |
 | [Yoshi's Story](https://github.com/decompals/yoshis-story)                                                        | N64               |           |
 | [Castlevania: Order of Ecclesia](https://github.com/lagolunatic/ooe)                                              | NDS               |           |
+| [Dragon Quest IX](https://github.com/DQIX/dqix-decomp)                                                            | NDS               |           |
 | [Mario & Luigi - Partners in Time](https://github.com/rainchus/partnersintime-decomp)                             | NDS               |           |
 | [Mario Party DS](https://github.com/mariopartyrd/mariopartyds)                                                    | NDS               |           |
 | [Pokémon Diamond and Pearl](https://github.com/pret/pokediamond)                                                  | NDS               |           |
@@ -180,17 +183,20 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Driver 2](https://github.com/OpenDriver2/REDRIVER2)                                                              | PS1               | ✅         |
 | [Legacy of Kain: Soul Reaver](https://github.com/fmil95/soul-re)                                                  | PS1               |           |
 | [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)                          | PS1               | ✅         |
+| [Legend of Legaia](https://github.com/dacodechick/legaia-decomp)                                                  | PS1               |           |
 | [MediEvil 1](https://github.com/MediEvilDecompilation/medievil-decomp)                                            | PS1               |           |
 | [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)                                                   | PS1               |           |
 | [R4: Ridge Racer Type 4](https://wakelet.com/wake/GeXGnrhyIWM-zbHJ4KURI)                                          | PS1               |           |
+| [Shin Megami Tensei](https://github.com/thecommandochicken/smt-decomp)                                            | PS1               |           |
 | [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)                                                        | PS1               |           |
 | [Spyro the Dragon](https://github.com/TheMobyCollective/spyro-1)                                                  | PS1               |           |
 | [Tomb Raider 1](https://github.com/rr-/Tomb1Main)                                                                 | PS1               | ✅         |
 | [Tomb Raider 1-5](https://github.com/XProger/OpenLara)                                                            | PS1               |           |
 | [Vandal Hearts](https://github.com/shao113/vh)                                                                    | PS1               |           |
 | [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)                                                   | PS1               |           |
-| [Fatal Frame](https://github.com//Mikompilation/Himuro)                                                           | PS2               |           |
+| [Fatal Frame](https://github.com/Mikompilation/Himuro)                                                            | PS2               |           |
 | [Fatal Frame 2: Crimson Butterfly](https://github.com/Mikompilation/Minakami)                                     | PS2               |           |
+| [Ico](https://github.com/rossydoubleunderscore/ico-decomp)                                                        | PS2               |           |
 | [Jak II](https://github.com/open-goal/jak-project)                                                                | PS2               | ✅         |
 | [Jak and Daxter: The Precursor Legacy](https://github.com/open-goal/jak-project)                                  | PS2               | ✅         |
 | [Kingdom Hearts](https://github.com/ethteck/kh1)                                                                  | PS2               |           |
@@ -202,6 +208,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Street Fighter III: 3rd Strike](https://github.com/apstygo/sfiii-decomp)                                         | PS2               |           |
 | [Twisted Metal: Black](https://github.com/abelbriggs1/tmb_decomp)                                                 | PS2               |           |
 | [Xenosaga Episode 1: Der Wille zur Macht](https://github.com/squareman/xenosaga)                                  | PS2               |           |
+| [Yakuza](https://github.com/hamzaxx370/ogre-decomp)                                                               | PS2               |           |
 | [Demon's Crest](https://github.com/fredyeye/various-game-disassembly)                                             | SNES              |           |
 | [Donkey Kong Country 1](https://github.com/Yoshifanatic1/Donkey-Kong-Country-1-Disassembly)                       | SNES              |           |
 | [Donkey Kong Country 2](https://github.com/p4plus2/DKC2-disassembly)                                              | SNES              |           |
