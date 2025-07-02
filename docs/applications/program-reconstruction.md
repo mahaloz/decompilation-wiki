@@ -59,7 +59,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Kirby Air Ride](https://github.com/doldecomp/kar)                                                                | GameCube          |           |
 | [Luigi's Mansion](https://github.com/sage-of-mirrors/zmansion)                                                    | GameCube          |           |
 | [Mario Kart: Double Dash!!](https://github.com/SwareJonge/mkdd)                                                   | GameCube          |           |
-| [Mario Party 4](https://github.com/mariopartyrd/marioparty4)                                                      | GameCube          | ✅        |
+| [Mario Party 4](https://github.com/mariopartyrd/marioparty4)                                                      | GameCube          | ✅         |
 | [Mario Party 5](https://github.com/mariopartyrd/marioparty5)                                                      | GameCube          |           |
 | [Mario Party 6](https://github.com/mariopartyrd/marioparty6)                                                      | GameCube          |           |
 | [Mario Party 7](https://github.com/mariopartyrd/marioparty7)                                                      | GameCube          |           |
