@@ -180,7 +180,7 @@ procedure UNIFY(X, Y, G)
 end procedure
 ```
 
-![](/static/img/unify.svg)
+![Unification Example](/static/img/unify.svg)
 
 ### Propagating `Add` / `Sub`
 
@@ -232,9 +232,9 @@ A constraint is *interesting* if it satisfies any of these conditions:
 
 ### Constraint Graph Construction
 
-For every subtype edge (e.g., `A <: B` or `A.load <: C.store.σN@k`) the PDS adds an **unlabeled** edge:
+For every subtype edge (e.g., `A <: B`, `A.load <: D` and `C <: B.store`) the PDS adds an **unlabeled** edge:
 
-![](/static/img/cg1.svg)
+![Initial Constraint Graph](/static/img/cg1.svg)
 
 Next, two families of labeled edges are inserted:
 
@@ -245,7 +245,7 @@ Next, two families of labeled edges are inserted:
 
 Edges are added recursively to cover all prefixes, maintaining correct variance:
 
-![](/static/img/cg2.svg)
+![Add push/pop edges](/static/img/cg2.svg)
 
 ### Saturation
 
@@ -253,7 +253,26 @@ Caucal’s algorithm [^3] adds shortcut edges so consecutive `push`/`pop` pairs 
 
 1. Insert edges implied by `A.load <: A.store`.
 2. Remove self-loops.
-3. Ensure a `pop` edge is unreachable after a single `push`.
+3. Ensure a `pop` edge is unreachable after a single `push` with the same label.
+
+![Saturation](/static/img/cg3.svg)
+
+In the example above, the following path:
+```
+A.load.⊖
+     → A.store.⊖ (implied node)
+push → A.⊕ 
+     → B.⊕
+pop  → B.store.⊖
+```
+
+This path contains a `push` directly followed by a `pop`.
+Where both use the same label: `store`.
+Therefore, we can apply the shortcut:
+
+```
+A.load.⊖ → B.store.⊖
+```
 
 ### Breaking SCCs
 
