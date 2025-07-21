@@ -1,4 +1,4 @@
-# Type Recovery
+# Type Recovery Overview
 ## Introduction
 Type recovery is the process of identifying high-level variables and their types from a binary[^1], usually in the form of a CFG.
 This wiki groups variable identification with type recovery since they are often intertwined in decompilation[^2]. 
