@@ -122,6 +122,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Glover](https://github.com/rainchus/glover)                                                                      | N64               |           |
 | [Goldeneye 007](https://gitlab.com/kholdfuzion/goldeneye_src)                                                     | N64               |           |
 | [Harvest Moon 64](https://github.com/harvestwhisperer/hm64-decomp)                                                | N64               |           |
+| [Jet Force Gemini](https://github.com/ryan-myers/jet-force-gemini)                                                | N64               |           |
 | [Kirby 64: The Crystal Shards](https://github.com/kirby64ret/kirby64)                                             | N64               |           |
 | [Lego Racers](https://github.com/marijnvdwerf/lego-racers)                                                        | N64               |           |
 | [Mario Golf](https://github.com/monde-lointain/mariogolf64)                                                       | N64               |           |
@@ -131,7 +132,9 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Mario Party 3](https://github.com/mariopartyrd/marioparty3)                                                      | N64               |           |
 | [Mario Tennis](https://github.com/dellm-79/mariotennis64)                                                         | N64               |           |
 | [Mischief Makers](https://github.com/drahsid/mischief-makers)                                                     | N64               |           |
+| [Mystical Ninja Starring Goemon](https://github.com/klorfmorf/mnsg)                                               | N64               |           |
 | [Neon Genesis Evangelion 64](https://github.com/farisawan-2000/evangelion)                                        | N64               |           |
+| [Onegai Monsters](https://github.com/ryan-myers/onegaimonsters)                                                   | N64               |           |
 | [Paper Mario](https://github.com/pmret/papermario)                                                                | N64               | ✅         |
 | [Perfect Dark](https://gitlab.com/ryandwyer/perfect-dark)                                                         | N64               | ✅         |
 | [Pokemon Puzzle League](https://github.com/angheloalf/puzzleleague64)                                             | N64               |           |
