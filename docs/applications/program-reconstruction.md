@@ -63,7 +63,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Mario Party 5](https://github.com/mariopartyrd/marioparty5)                                                      | GameCube          |           |
 | [Mario Party 6](https://github.com/mariopartyrd/marioparty6)                                                      | GameCube          |           |
 | [Mario Party 7](https://github.com/mariopartyrd/marioparty7)                                                      | GameCube          |           |
-| [Mario Superstar Baseball](https://github.com/roeming/mssbdecomp)                                                 | GameCube          |           |
+| [Mario Superstar Baseball](https://github.com/roeming/mssb-dtk)                                                   | GameCube          |           |
 | [Metroid Prime 1](https://github.com/PrimeDecomp/prime)                                                           | GameCube          |           |
 | [Metroid Prime 2](https://github.com/PrimeDecomp/echoes)                                                          | GameCube          |           |
 | [Naruto: Gekitō Ninja Taisen! 4](https://github.com/doldecomp/gnt4)                                               | GameCube          |           |
@@ -78,6 +78,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Sonic Adventure DX](https://github.com/doldecomp/sadx)                                                           | GameCube          |           |
 | [Sonic Riders](https://github.com/doldecomp/sonicriders)                                                          | GameCube          |           |
 | [SpongeBob SquarePants: Battle for Bikini Bottom](https://github.com/bfbbdecomp/bfbb)                             | GameCube          |           |
+| [Star Fox Adventures](https://github.com/renakunisaki/sfadebug)                                                   | GameCube          |           |
 | [Summoner: A Goddess Reborn](https://github.com/Charlese2/sgr)                                                    | GameCube          |           |
 | [Super Mario Strikers](https://github.com/yannicksuter/smstrikers-decomp)                                         | GameCube          |           |
 | [Super Mario Sunshine](https://github.com/doldecomp/sms)                                                          | GameCube          |           |
@@ -197,6 +198,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Tomb Raider 1-5](https://github.com/XProger/OpenLara)                                                            | PS1               |           |
 | [Vandal Hearts](https://github.com/shao113/vh)                                                                    | PS1               |           |
 | [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)                                                   | PS1               |           |
+| [Dark Cloud](https://github.com/adubbz/dcdecomp)                                                                  | PS2               |           |
 | [Fatal Frame](https://github.com/Mikompilation/Himuro)                                                            | PS2               |           |
 | [Fatal Frame 2: Crimson Butterfly](https://github.com/Mikompilation/Minakami)                                     | PS2               |           |
 | [Ico](https://github.com/rossydoubleunderscore/ico-decomp)                                                        | PS2               |           |
