@@ -16,3 +16,4 @@ A collection of decompilation blogs from the community.
 - [mahaloz](https://mahaloz.re/) (💾, 🔍, 🌍)
 - [msm](https://msm.lt/posts/) (🔍, 🌍)
 - [fcd](http://fay59.github.io/fcd/) (💀, 💾, 🔍)
+- [REC Blog](https://www.backerstreet.com/decompiler/introduction.php) (💀, 💾, 🔍)
