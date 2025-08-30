@@ -115,6 +115,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Doom 64](https://github.com/erick194/doom64-re)                                                                  | N64               | ✅         |
 | [Doraemon: Nobita to Mittsu no Seireiseki](https://github.com/prakxo/doraemon1)                                   | N64               |           |
 | [Dr. Mario 64](https://github.com/AngheloAlf/drmario64)                                                           | N64               |           |
+| [Duke Nukem 64](https://github.com/nblood/duke64-re)                                                              | N64               |           |
 | [Duke Nukem: Zero Hour](https://github.com/Gillou68310/DukeNukemZeroHour)                                         | N64               |           |
 | [F-Zero X](https://github.com/inspectredc/fzerox)                                                                 | N64               |           |
 | [F-Zero X Expansion Kit](https://github.com/inspectredc/fzerox-expansion-kit)                                     | N64               |           |
@@ -196,10 +197,11 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Spyro the Dragon](https://github.com/TheMobyCollective/spyro-1)                                                  | PS1               |           |
 | [Tomb Raider 1](https://github.com/rr-/Tomb1Main)                                                                 | PS1               | ✅         |
 | [Tomb Raider 1-5](https://github.com/XProger/OpenLara)                                                            | PS1               |           |
+| [Vagrant Story](https://github.com/ser-pounce/rood-reverse)                                                       | PS1               |           |
 | [Vandal Hearts](https://github.com/shao113/vh)                                                                    | PS1               |           |
 | [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)                                                   | PS1               |           |
 | [Dark Cloud](https://github.com/adubbz/dcdecomp)                                                                  | PS2               |           |
-| [Fatal Frame](https://github.com/Mikompilation/Himuro)                                                            | PS2               |           |
+| [Fatal Frame 1](https://github.com/Mikompilation/Himuro)                                                          | PS2               |           |
 | [Fatal Frame 2: Crimson Butterfly](https://github.com/Mikompilation/Minakami)                                     | PS2               |           |
 | [Ico](https://github.com/rossydoubleunderscore/ico-decomp)                                                        | PS2               |           |
 | [Jak II](https://github.com/open-goal/jak-project)                                                                | PS2               | ✅         |
@@ -238,7 +240,8 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Mario Kart Wii](https://github.com/riidefi/mkw)                                                                  | Wii               |           |
 | [Mario Party 8](https://github.com/mariopartyrd/marioparty8)                                                      | Wii               |           |
 | [Mario Party 9](https://github.com/mariopartyrd/marioparty9)                                                      | Wii               |           |
-| [Pokemon Battle Revolution](https://github.com/pret/pokerevo)                                                     | Wii               |           |
+| [Pokemon Battle Revolution](https://github.com/bgsamm/pbr-dtk)                                                    | Wii               |           |
+| [Pokepark Wii: Pikachu's Adventure](https://github.com/sephdb/pokepark-wii-decomp)                                | Wii               |           |
 | [Super Mario Galaxy](https://github.com/SMGCommunity/Petari)                                                      | Wii               |           |
 | [Super Mario Galaxy 2](https://github.com/SMGCommunity/Garigari)                                                  | Wii               |           |
 | [Super Paper Mario](https://github.com/SeekyCt/spm-decomp)                                                        | Wii               |           |
