@@ -192,11 +192,12 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [MediEvil 1](https://github.com/MediEvilDecompilation/medievil-decomp)                                            | PS1               |           |
 | [Metal Gear Solid](https://github.com/FoxdieTeam/mgs_reversing)                                                   | PS1               |           |
 | [R4: Ridge Racer Type 4](https://wakelet.com/wake/GeXGnrhyIWM-zbHJ4KURI)                                          | PS1               |           |
-| [Shin Megami Tensei](https://github.com/thecommandochicken/smt-decomp)                                            | PS1               |           |
+| [Shin Megami Tensei](https://codeberg.org/chickenzes/smt-decomp)                                                  | PS1               |           |
 | [Silent Hill](https://github.com/Vatuu/silent-hill-decomp)                                                        | PS1               |           |
 | [Spyro the Dragon](https://github.com/TheMobyCollective/spyro-1)                                                  | PS1               |           |
 | [Tomb Raider 1](https://github.com/rr-/Tomb1Main)                                                                 | PS1               | ✅         |
 | [Tomb Raider 1-5](https://github.com/XProger/OpenLara)                                                            | PS1               |           |
+| [Tomba!](https://github.com/hansbonini/psx_tomba)                                                                 | PS1               |           |
 | [Vagrant Story](https://github.com/ser-pounce/rood-reverse)                                                       | PS1               |           |
 | [Vandal Hearts](https://github.com/shao113/vh)                                                                    | PS1               |           |
 | [Xenogears](https://github.com/ladysilverberg/xenogears-decomp)                                                   | PS1               |           |
