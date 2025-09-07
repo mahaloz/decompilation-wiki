@@ -84,7 +84,7 @@ struct Stride {
 struct AbstractLocation {
     size_t offset;
     size_t size;
-    struct RIC value_set;
+    struct Stride value_set;
 }; 
 
 struct Store {
