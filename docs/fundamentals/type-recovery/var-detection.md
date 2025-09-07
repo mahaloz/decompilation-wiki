@@ -68,39 +68,17 @@ Where s is the stride, and l and u are the lower and upper bounds respectively.
 
 e.g. `4[8, 22] => {8, 12, 16}`
 
-```C
-struct Stride {
-    size_t stride;
-    size_t lower;
-    size_t upper;
-}
-
-struct IndirectAddress {
-    struct MemoryRegion region;
-    size_t offset;
-    size_t size;
-    struct Stride value_set;
-}; 
-```
-
 It is easy to see how this would be useful for representing memory offsets in an array.
 
 To handle the indirect addressing we must be able to represent the possible values registers contain at each program point, as well as possible values of memory locations.
 To represent the possible values of memory locations we use an abstract location (also known as an a-loc).
 Naïve variable identification will give us the first set of abstract locations along with one abstract location per heap region and one per register.
 
-An abstract store is a method for over-approximating the set of addresses each abstract location holds at a particular program point.
-We over-approximate the potential values using a Reduced Interval Congruence (RIC) where (a,b,c,d) is equivelent to a x [b, c] + d e.g (3, 4, 7, 10) becomes {22, 25, 28, 31}.
-This enables us to detail accesses in arrays or in records.
-
-Value sets represented by the RICs have several operations that can be performed on them detailed in the DIVINE paper[^2].
-
 ```C
-struct RIC {
-    size_t a;
-    size_t b;
-    size_t c;
-    size_t d;
+struct Stride {
+    size_t stride;
+    size_t lower;
+    size_t upper;
 }
 
 struct AbstractLocation {
