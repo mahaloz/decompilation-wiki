@@ -12,6 +12,7 @@ Any issue is a candidate for contribution, but ones marked as `help wanted` are 
 
 Additionally, the wiki has a series of decompilation-related listings that constantly need unknown items added to it. 
 Some include:
+
 - [full decompilers](/decompilers/directory)
 - [tools](/decompilers/tools) 
 - [blogs](/misc/blogs) 

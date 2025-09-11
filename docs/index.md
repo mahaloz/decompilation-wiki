@@ -34,11 +34,11 @@ This wiki has two main goals:
 2. Categorizing research and tooling to make future decompilation progress easier
 
 To accomplish the first goal, it is highly encouraged to link public code when adding a technique. 
-Additionally, we will store tutorials for self-rolling (to a degree) your own decompiler components. 
+Additionally, we will store tutorials for self-rolling (to a degree) your own decompiler components.
 
 To accomplish the second goal, we will attempt to rapidly categorize new research and tools in the area.
 These categorizations may not be agreed upon at first, however, we will update them as the community hits consensus. 
-In this way, we can quickly attempt to taxonomize the area of decompilation while iterating on it. 
+In this way, we can quickly attempt to taxonomize the area of decompilation while iterating on it.
 
 ## Who Made This?
 The Decompilation Wiki was started by [Zion Leonahenahe Basque](https://zionbasque.com), but is sustained by the contributions of the decompilation community. Both closed and open-source developers are welcome! 
@@ -50,5 +50,9 @@ The wiki is highly inspired by the following sources:
 - ["30 Years into Scientific Binary Decompilation"](https://www.youtube.com/watch?v=XasallkPQIA), Dr. Ruoyu (Fish) Wang: a source of information on decompilers.
 
 Additionally, the wiki is due in large part to the support and advisement of Zion's PhD committee: [Dr. Ruoyu (Fish) Wang](https://ruoyuwang.me/), [Dr. Yan Shoshitaishvili](http://yancomm.net/), [Dr. Adam Doupé](https://adamdoupe.com/), and [Dr. Christina Cifuentes](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:21). 
+
+## Decompilation Paper List
+Across this wiki you will find many papers cited from across the scientific community. 
+For easy accessibiliy, you can find all cited papers here: [Comprehensive Decompilation List](https://docs.google.com/spreadsheets/d/13QUqON6cwNADk-2E1hwiKxXeCd0ESXUmkA9_dweCESM/edit?usp=sharing).
 
 [^1]: Yakdan, Khaled, et al. ["Helping johnny to analyze malware: A usability-optimized decompiler and malware analysis user study."](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7546501&casa_token=Pl69lA763yoAAAAA:0rH6AIEbiBhbUGGaSvJvhaYeFEaWPnIifVHceQTGkd_k4NQK6EDH_zcytY-I-W6OE5oHbdU) 2016 IEEE Symposium on Security and Privacy (SP). IEEE, 2016.

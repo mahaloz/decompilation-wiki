@@ -51,4 +51,8 @@ The wiki is highly inspired by the following sources:
 
 Additionally, the wiki is due in large part to the support and advisement of Zion's PhD committee: [Dr. Ruoyu (Fish) Wang](https://ruoyuwang.me/), [Dr. Yan Shoshitaishvili](http://yancomm.net/), [Dr. Adam Doupé](https://adamdoupe.com/), and [Dr. Christina Cifuentes](https://labs.oracle.com/pls/apex/f?p=labs:bio:0:21). 
 
+## Decompilation Paper List
+Across this wiki you will find many papers cited from across the scientific community. 
+For easy accessibiliy, you can find all cited papers here: [Comprehensive Decompilation List](https://docs.google.com/spreadsheets/d/13QUqON6cwNADk-2E1hwiKxXeCd0ESXUmkA9_dweCESM/edit?usp=sharing).
+
 [^1]: Yakdan, Khaled, et al. ["Helping johnny to analyze malware: A usability-optimized decompiler and malware analysis user study."](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7546501&casa_token=Pl69lA763yoAAAAA:0rH6AIEbiBhbUGGaSvJvhaYeFEaWPnIifVHceQTGkd_k4NQK6EDH_zcytY-I-W6OE5oHbdU) 2016 IEEE Symposium on Security and Privacy (SP). IEEE, 2016.
