@@ -42,6 +42,7 @@ nav:
     - fundamentals/cfg-recovery/jump-resolving.md
   - Type Recovery:
     - fundamentals/type-recovery/overview.md
+    - fundamentals/type-recovery/var-detection.md
     - Lattice Based:
       - fundamentals/type-recovery/lattice-constraint-simp.md
   - Control Flow Structuring:
