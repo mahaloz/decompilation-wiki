@@ -1,148 +1,137 @@
 # Variable Detection
 ## Introduction
-Variable detection is a collection of techniques used to annotate memory regions and registers with variable type classifications. 
-Common classifications of variables include: global, local, heap and register. 
-The output from variable classification and detection provides the basis for further analysis and can greatly impact the quality of decompilation.
+Variable detection encompasses a set of techniques used to annotate memory regions and registers with variable type classifications.  
+Common classifications include **global**, **local**, **heap**, and **register** variables.  
+Accurate variable classification is foundational to subsequent analyses for decompilation.
 
 ## Naïve Variable Identification
-Early decompilation[^1] primarily focused on identifying common idioms in the assembly:
+Early decompilation techniques[^1] primarily relied on recognizing common idioms in assembly code:
 
 | Type   | Access Pattern                   |
 | ------ | -------------------------------- |
-| Local  | [rbp-4]                          |
-| Global | [0xdeadbeef] or [rip+0xdeadbeef] |
+| Local  | `[rbp-4]`                        |
+| Global | `[0xdeadbeef]` or `[rip+0xdeadbeef]` |
 
-Local variables are typically identified as they are accessed as an offset from the frame pointer.
-Global variables are typically accessed absolutely, this can be done via an exact address or another common way is as an offset from the instruction pointer.
-We can further this analysis by handling calling conventions, in order to allow the detection of arguments and return addresses.
+Local variables are typically identified by their access as an offset from the frame pointer.  
+Global variables, in contrast, are accessed via absolute addressing—either through a fixed address or an offset relative to the instruction pointer.
 
-Calling conventions allow the interoperation of multiple languages by defining:
+This analysis can be extended by incorporating knowledge of **calling conventions**, which define:
 
-- How arguments are passed (by stack or register).
-- Who should preserve registers (caller or callee).
-- How values are returned.
+- How arguments are passed (via stack or registers)  
+- Which registers must be preserved (caller- vs. callee-saved)  
+- How return values are provided  
 
-The standardisation introduced by calling conventions can be applied via pattern matching in order to detect function information and therefore variables.
+The regularity imposed by calling conventions allows the use of pattern matching to infer function arguments, return values, and therefore variables.
 
-This simple identification of variables is surprisingly accurate detecting 83% of local variables[^2]. 
-However it has a few limitations because variables can be accessed indirectly, promoted to registers or allocated on the heap.
-Despite this many decompilers rely on it as the foundation for their variable and type analysis due to its efficiency, accuracy and simplicity.
+Although this approach is relatively simple, it achieves surprisingly high accuracy—detecting approximately **83% of local variables**[^2].  
+Its main limitations arise when variables are accessed indirectly, promoted to registers, or dynamically allocated on the heap.  
+Nevertheless, many decompilers use naïve identification as the foundation for variable and type analysis because of its efficiency, simplicity, and robustness.
 
 ## DIVINE
-DIVINE[^2] introduced the idea of used a more advanced approach by combining Value-Set Analysis (VSA) with Aggregate Structure Identification.
-VSA analyses and models memory to understand potential addresses and values of memory.
-Aggregate Structure Identification (ASI) uses the information to detect data structures such as array, records or objects.
-The information from ASI is then fed back into VSA if more iterations are determined to be beneficial.
+DIVINE[^2] introduced a more advanced approach by combining **Value-Set Analysis (VSA)** with **Aggregate Structure Identification (ASI)**.  
+VSA models memory to determine potential addresses and values of memory locations, while ASI detects higher-level data structures (e.g., arrays, records, objects).  
+Results from ASI can be fed back into VSA for further refinement through additional iterations.
 
 ## Value-Set Analysis (VSA)
-VSA technique enables the identification of variables allocated on the heap and shows an improvement on the naïve techniques.
-To achieve this the memory is split into global, activation record and heap regions.
+VSA enables the identification of heap-allocated variables and generally outperforms naïve techniques.  
+It partitions memory into three regions: global memory, the activation record (stack), and the heap.
 
 ### Memory Representation
-
-VSA computes an over-approximation of memory regions, done by maintaining a set of possible values or addresses for a memory region.
-Memory regions are split into 3 possible categories:
+VSA computes an **over-approximation** of memory regions by maintaining a set of possible addresses or values for each location.  
+Memory regions are typically represented as:
 
 | Region Type | Occurrence                |
 | ----------- | --------------------------|
-| Procedure   | 1 per procedure           |
-| Global      | 1                         |
-| Heap        | 1 per heap allocation     |
+| Procedure   | One per procedure          |
+| Global      | One per program           |
+| Heap        | One per heap allocation   |
 
-We do this because memory addresses can be reused across procedures and heap variables, however it is unlikely to be the case for global variables.
-An address in a program could therefore be defined as:
+This separation allows addresses to be disambiguated across procedures and heap allocations, which is generally unnecessary for globals.  
 
-```C
+A memory address can be modeled as:
+
+```c
 struct Addr {
     struct MemoryRegion region;
     size_t offset;
-}; 
-```
+};
+````
 
-(The offset in procedure regions is represented as an offset from the base pointer).
+Here, `offset` represents the displacement within the region (e.g., relative to the frame pointer for procedure regions).
 
-The above is sufficient for representing the direct location of a data object, and will enable us to gain simple view of base addresses and sizes of local and global variables.
-However, this unfortunately fails for indirect accesses to memory locations, so an offset for these addresses is better represented as a set of possible values.
-DIVINE suggests using a strided interval: `s[l, u]`. 
-Where s is the stride, and l and u are the lower and upper bounds respectively.
+While this representation captures direct addresses, it struggles with indirect memory accesses.
+Offsets are therefore more accurately represented as **sets of possible values**, often encoded as **strided intervals** `s[l, u]`, where `s` is the stride and `[l, u]` the lower and upper bounds:
 
-e.g. `4[8, 22] => {8, 12, 16}`
+Example:
+`4[8, 22] → {8, 12, 16, 20}`
 
-It is easy to see how this would be useful for representing memory offsets in an array.
+This model is especially effective for representing array element offsets.
 
-To handle the indirect addressing we must be able to represent the possible values registers contain at each program point, as well as possible values of memory locations.
-To represent the possible values of memory locations we use an abstract location (also known as an a-loc).
-Naïve variable identification will give us the first set of abstract locations along with one abstract location per heap region and one per register.
+To handle indirect addressing, we must track the possible values of registers and memory at each program point.
+These are represented as **abstract locations** (a-locs).
+Naïve variable identification provides an initial set of a-locs: one per global, one per heap region, and one per register.
 
-```C
+```c
 struct Stride {
     size_t stride;
     size_t lower;
     size_t upper;
-}
+};
 
 struct AbstractLocation {
     size_t offset;
     size_t size;
     struct Stride value_set;
-}; 
+};
 
 struct Store {
     struct MemoryRegion region;
     map[offset] => AbstractLocation;
-}
+};
 ```
 
 ### VSA Algorithm
-This algorithm is able to determine a set of possible address and numeric integer values each abstract location can hold at a program point.
-To perform it we create a control flow graph where each individual instruction is a node and edges link them together.
-We initialise the abstract store with global variables and the stack point value.
-On specific instructions we define transfer functions to model changes in the abstract store.
 
-Instructions of interest include:
+The VSA algorithm determines the set of possible addresses and values for each abstract location at every program point.
+Key steps:
 
-- mov
-- lea
-- cmp
-- conditional jumps
-- push
-- pop
+1. **Build a Control Flow Graph (CFG):**
+   Each instruction becomes a node, with edges representing control flow.
 
-One issue is cycles, as we don't want to repeatedly analyse the same information. This can be dealt with by approximating the values that are possible known as widening. e.g. 1,3,5,7 becomes the strided interval 2[1,∞]. 
-(We will discuss how to handle the infinity later).
+2. **Initialize the Abstract Store:**
+   Start with known global variables and initial stack/register state.
 
-We also want to be able to analyse between functions, this is more tricky as we need to be able to determine the parameters that are being passed to a function, which varies based on the specific calling convention.
-To be able to do this we can use the value sets of registers and also add information about how push and pop modify memory.
-To perform analysis between functions we must add in new nodes to represent calls and returns where the edges contain the transfer functions to represent the changes in the stack pointer and the parameters.
+3. **Apply Transfer Functions:**
+   For instructions such as `mov`, `lea`, `cmp`, `push`, `pop`, and conditional jumps, update the abstract store accordingly.
 
-To populate the parameters in the case of stack values we simply look up the address from the callers memory region and identify what the possible values and addresses are, this is possible due to us adding monitoring for push and pop.
-For register based parameters the same can be done by looking at the registers memory region and identifying its possible values and addresses.
-We then populate each parameters value set in the abstract store by performing a join on all the value sets from the all the parameters from the callers as calculated discussed.
-In the case where we identify one of the parameters to be a pointer its value set is initialised as any value.
+4. **Handle Cycles with Widening:**
+   Repeated analysis of loops is prevented through *widening*, which generalizes patterns.
+   Example: `{1, 3, 5, 7, …}` becomes `2[1, ∞)`.
 
-On exit of a function we also handle reverting the changes made to the abstract store by handling restoration of registers and stack values.
+5. **Model Interprocedural Behavior:**
+   Add nodes for function calls and returns, propagating parameter and return value information.
+   Stack arguments are retrieved from caller memory regions; register arguments from register value sets.
+   Upon function exit, registers and stack values are restored.
 
-Another issue we may now face is the consideration of indirect calls and jumps. 
-In most cases our value sets will give us a good idea of the potential addresses, and when this cannot be determined we ignore the jump/call.
+6. **Address Indirect Jumps/Calls:**
+   Where possible, resolve targets via value sets; otherwise, conservatively ignore them.
 
 ### Affine Relations
-A lack of precision is introduced with loops, this is because if we don't bound our analysis it could potentially go on forever trying to calculate value sets.
-To solve this we use a technique called widening which essentially identifies repeating patterns in the modification to our value set so we don't have to manually calculate each iteration (which is potentially infinite).
-However with widening there is a possibility of over approximation especially in cases where the value set increases in an unbounded manner e.g. {1,3,5,7,...}.
 
-To improve the precision of analysis and widening we use something called affine relation analysis[^5].
-Affine relations are written in the following form:
+Loops introduce imprecision, as value sets could otherwise grow unboundedly.
+Affine relation analysis[^5] improves precision by expressing relationships between variables:
 
 $$
 a_0 + \sum_{i=1}^n a_i r_i = 0
 $$
 
-This creates a way of using bounds from other registers to infer bounds on another register.
+This allows inference of bounds for one register based on others.
 
-Example (set every element in an array):
-```ASM
-    xor ecx, ecx
-    mov edx, arr
+**Example: Array Initialization Loop**
+
+```asm
+xor ecx, ecx
+mov edx, arr
 L1:
     lea eax, [ecx*8]
     add eax, edx
@@ -152,53 +141,46 @@ L1:
     jl L1
 ```
 
-In this example eax's affine relation would be:
-```
-eax = ecx*8 + edx
-```
+Here:
+`eax = ecx*8 + edx`
 
-and since we know ecx is less than 10 at any point it is applied to eax, we can insert the values in order to solve:
-```
-eax = 8[0, 9] + &arr[0] = {0, 8, ..., 72} + &arr[0]
-```
+Since `ecx < 10`, we deduce:
+`eax = 8[0, 9] + &arr[0] = {0, 8, …, 72} + &arr[0]`
+
+This increases precision when modeling memory accesses.
 
 ### Call Strings
 
-Call strings[^7] are the method used to perform interprocedural analysis for DIVINE, they were added later since they improve accuracy. 
-A call string can be defined as a path within a call graph, it aims to provide context to how we got to a particular program point.
-This allows a more precise model this is because the abstract store of the callee will be specific to the current call string.
-On the other hand context sensitivity is a more intensive analysis as we need to analyse each function once per valid call string.
+Call strings[^7] provide **context-sensitive interprocedural analysis** by recording call paths.
+Each unique call string corresponds to a separate abstract store, improving precision.
+However, this approach is computationally more expensive, as each function must be re-analyzed per distinct call path.
 
-In the below example if the set of valid paths is defined as 
-
+Example of valid call strings:
 `{{1,2,4}, {1,2,3}, {1,3,4}}`
+This excludes invalid paths such as `1→2→3→4`.
 
-This means that we analyse each of these individually, and we also are able to determing `1->2->3->4` is not a valid path and doesn't need considering.
-
-![](/static/img/call-string.svg)
-
-Call strings also require bounding due to large paths and especially recursive functions.
+Call strings are typically bounded to prevent explosion in recursive or deep call chains.
 
 ## Aggregate Structure Identification (ASI)
 
-The output from VSA will provide us the following:
+The output of VSA includes:
 
-- Value sets for different types of memory (register, global, stack, and heap)
-- Indirect accesses to memory
-- How memory changes from one program point to another
+* Value sets for registers, globals, stack, and heap
+* Detected indirect memory accesses
+* Memory state changes across program points
 
-We wish to identify variables, arrays and structs so we use ASI.
+ASI uses this information to recover **variables, arrays, and structures**.
 
-First we take the separate memory regions, analysing each of them separately.
-For example in the case of a stack we can identify its size as how much memory is allocated by the stack pointer. 
-(`sub esp, 80`) allocates 80 bytes of memory which defines the size of our stack region.
-We break this up into smaller elements (named atoms) by using accesses to the memory:
+For stack analysis, size can be inferred from stack-pointer adjustments (e.g., `sub esp, 80` → 80-byte frame).
+Memory accesses are used to split the region into smaller **atoms**.
 
-```ASM
-    mov ebp, esp
-    sub esp, 80
-    xor ecx, ecx
-    mov edx, ebp
+Example:
+
+```asm
+mov ebp, esp
+sub esp, 80
+xor ecx, ecx
+mov edx, ebp
 L1:
     lea eax, [ecx*8]
     add eax, edx
@@ -206,42 +188,31 @@ L1:
     inc ecx
     cmp ecx, 10
     jl L1
-    mov esp, ebp
+mov esp, ebp
 ```
 
-From the above example we know the following value sets for the memory access `mov [eax], ecx`:
+Here, the 80-byte region is divided into 10 elements of 8 bytes each, suggesting an array.
+Structure-like accesses appear as fixed offsets from a pointer:
 
-- eax: 8[ebp, ebp+72]
-- ecx: 1[0, 9]
-
-This allows us to break the 80 byte stack region into 10 and since it is using a pattern similar to accessing an array at 8 byte intervals we can define it as a array of length 10 and element size 8.
-If we were seeing values in a structure being set it would likely be as constant offsets from a pointer:
-
-```ASM
-    mov [eax], 1
-    mov [eax+4], 2
-    mov [eax+16], 3
+```asm
+mov [eax], 1
+mov [eax+4], 2
+mov [eax+16], 3
 ```
 
-The results from ASI can be replaced back into VSA where each atom represents an abstract location, this is useful when byte boundries change from the previous set of abstract locations.
-The full details of the ASI algorithm can be found in the DIVINE paper[^2].
-
-After completing as many rounds as deemed neccessary the information can be passed to the type analysis phase.
+ASI results are fed back into VSA, refining abstract locations and improving subsequent iterations.
+Iterations continue until results converge, after which information is passed to the **type analysis** phase.
 
 ## Improvements
 
-One major issue with VSA and the additional affine relation analysis is its runtime[^2][^6].
-The runtime is especially significant when the binary in multiple iterations of VSA and ASI.
-Another is its lack of handling self modifying code.
+The main drawback of VSA (and affine relation analysis) is **runtime cost**[^2][^6], especially when multiple VSA–ASI iterations are required.
+Handling **self-modifying code** also remains challenging.
 
-TIE's type system[^4] uses an adaptation of VSA called DVSA which passes variables to the type analysis phase.
-It unfortunately doesn't discuss runtime of the analysis.
-DVSA provides several improvements over DIVINE such as:
+Improvements include:
 
-- Uses IR in SSA form where each register assignment and memory store is unique. This helps to improve the accuracy of value sets.
-- Uses linear combinations of scalars over strided intervals
+* **DVSA (TIE system)**[^4]: Uses SSA-form IR and linear combinations over strided intervals, improving precision and simplifying value-set computation.
+* **SecondWrite**[^3]: Suggests runtime optimizations for DIVINE to make it more scalable.
 
-SecondWrite[^3] also suggests some modifications for improving the runtime of DIVINE.
 
 [^1]: Cifuentes, Cristina. Reverse compilation techniques. Queensland University of Technology, Brisbane, 1994.
 [^2]: Balakrishnan, Gogul, and Thomas Reps. "Divine: Discovering variables in executables." International Workshop on Verification, Model Checking, and Abstract Interpretation. Berlin, Heidelberg: Springer Berlin Heidelberg, 2007.
