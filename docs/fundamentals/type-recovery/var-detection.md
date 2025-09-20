@@ -212,7 +212,11 @@ Improvements include:
 
 * **DVSA (TIE system)**[^4]: Uses SSA-form IR and linear combinations over strided intervals, improving precision and simplifying value-set computation.
 * **SecondWrite**[^3]: Suggests runtime optimizations for DIVINE to make it more scalable.
+* **Ghidra**[^8]: Performs VSA intraprocedurally and ignores calls, floating point arithmetic and heap regions.
 
+## Code Examples
+
+[Ghidra](https://github.com/NationalSecurityAgency/ghidra/blob/master/Ghidra/Features/Decompiler/src/decompile/cpp/heritage.cc)
 
 [^1]: Cifuentes, Cristina. Reverse compilation techniques. Queensland University of Technology, Brisbane, 1994.
 [^2]: Balakrishnan, Gogul, and Thomas Reps. "Divine: Discovering variables in executables." International Workshop on Verification, Model Checking, and Abstract Interpretation. Berlin, Heidelberg: Springer Berlin Heidelberg, 2007.
