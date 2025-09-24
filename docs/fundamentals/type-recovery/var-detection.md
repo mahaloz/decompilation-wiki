@@ -55,7 +55,7 @@ struct Addr {
     struct MemoryRegion region;
     size_t offset;
 };
-````
+```
 
 Here, `offset` represents the displacement within the region (e.g., relative to the frame pointer for procedure regions).
 
