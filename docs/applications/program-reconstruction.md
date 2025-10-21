@@ -52,13 +52,14 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [The Legend of Zelda: Link's Awakening DX HD](https://github.com/zladx/LADX-Disassembly)                          | GBC               | ✅         |
 | [Wario Land 3](https://github.com/froggestspirit/wland3)                                                          | GBC               | ✅         |
 | [Animal Crossing](https://github.com/acreteam/ac-decomp)                                                          | GameCube          |           |
+| [Animal Forest e+](https://github.com/acreteam/afe-decomp)                                                        | GameCube          |           |
 | [Chibi-Robo: PIA](https://github.com/eavpsp/cbr_decomp)                                                           | GameCube          |           |
 | [Doshin the Giant](https://github.com/break-core/doshin-gc)                                                       | GameCube          |           |
 | [Harvest Moon: A Wonderful Life](https://github.com/ChrisNonyminus/hmawl)                                         | GameCube          |           |
 | [Homeland](https://github.com/bttrdrgn/homeland)                                                                  | GameCube          |           |
 | [Kirby Air Ride](https://github.com/doldecomp/kar)                                                                | GameCube          |           |
 | [Luigi's Mansion](https://github.com/sage-of-mirrors/zmansion)                                                    | GameCube          |           |
-| [Mario Kart: Double Dash!!](https://github.com/SwareJonge/mkdd)                                                   | GameCube          |           |
+| [Mario Kart: Double Dash!!](https://github.com/doldecomp/mkdd)                                                    | GameCube          |           |
 | [Mario Party 4](https://github.com/mariopartyrd/marioparty4)                                                      | GameCube          | ✅         |
 | [Mario Party 5](https://github.com/mariopartyrd/marioparty5)                                                      | GameCube          |           |
 | [Mario Party 6](https://github.com/mariopartyrd/marioparty6)                                                      | GameCube          |           |
@@ -116,7 +117,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Doraemon: Nobita to Mittsu no Seireiseki](https://github.com/prakxo/doraemon1)                                   | N64               |           |
 | [Dr. Mario 64](https://github.com/AngheloAlf/drmario64)                                                           | N64               |           |
 | [Duke Nukem 64](https://github.com/nblood/duke64-re)                                                              | N64               |           |
-| [Duke Nukem: Zero Hour](https://github.com/Gillou68310/DukeNukemZeroHour)                                         | N64               |           |
+| [Duke Nukem: Zero Hour](https://github.com/Gillou68310/DukeNukemZeroHour)                                         | N64               | ✅         |
 | [F-Zero X](https://github.com/inspectredc/fzerox)                                                                 | N64               |           |
 | [F-Zero X Expansion Kit](https://github.com/inspectredc/fzerox-expansion-kit)                                     | N64               |           |
 | [Gauntlet Legends](https://github.com/drahsid/gauntlet-legends)                                                   | N64               |           |
@@ -175,7 +176,6 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Zelda II: The Adventure of Link](https://github.com/FiendsOfTheElements/z2disassembly)                           | NES               | ✅         |
 | [Carmageddon](https://github.com/dethrace-labs/dethrace)                                                          | PC                |           |
 | [Deus Ex: Human Revolution - Director's Cut](https://github.com/rrika/cdcEngineDXHR)                              | PC                |           |
-| [Final Fantasy VII](https://github.com/ficed/Braver)                                                              | PC                |           |
 | [Lego Island](https://github.com/isledecomp/isle)                                                                 | PC                | ✅         |
 | [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)                                      | PC                |           |
 | [Spider-Man (Neversoft)](https://github.com/krystalgamer/spidey-decomp)                                           | PC                |           |
@@ -186,6 +186,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Croc: Legend of the Gobbos](https://github.com/xeeynamo/croc)                                                    | PS1               |           |
 | [Doom](https://github.com/BodbDearg/PsyDoom)                                                                      | PS1               |           |
 | [Driver 2](https://github.com/OpenDriver2/REDRIVER2)                                                              | PS1               | ✅         |
+| [Final Fantasy VII](https://github.com/xeeynamo/ff7-decomp)                                                       | PS1               |           |
 | [Legacy of Kain: Soul Reaver](https://github.com/fmil95/soul-re)                                                  | PS1               |           |
 | [Legend of Dragoon](https://github.com/Legend-of-Dragoon-Modding/Legend-of-Dragoon-Java)                          | PS1               | ✅         |
 | [Legend of Legaia](https://github.com/dacodechick/legaia-decomp)                                                  | PS1               |           |
@@ -213,7 +214,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [PaRappa the Rapper 2](https://github.com/parappadev/parappa2)                                                    | PS2               |           |
 | [Resident Evil - Code: Veronica X](https://github.com/fmil95/recvx-decomp)                                        | PS2               |           |
 | [Sly Cooper and the Thievius Raccoonus](https://github.com/TheOnlyZac/sly1)                                       | PS2               |           |
-| [Street Fighter III: 3rd Strike](https://github.com/apstygo/sfiii-decomp)                                         | PS2               |           |
+| [Street Fighter III: 3rd Strike](https://github.com/crowded-street/3s-decomp)                                     | PS2               | ✅         |
 | [Twisted Metal: Black](https://github.com/abelbriggs1/tmb_decomp)                                                 | PS2               |           |
 | [Xenosaga Episode 1: Der Wille zur Macht](https://github.com/squareman/xenosaga)                                  | PS2               |           |
 | [Yakuza](https://github.com/hamzaxx370/ogre-decomp)                                                               | PS2               |           |
