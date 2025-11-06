@@ -1,6 +1,5 @@
 # History of Decompilation (1960-2007)
 ## Maintainers Note
-> [!NOTE]
 The following text is a clone, with small fixes, of the popular [Program-Transformation Wiki](https://web.archive.org/web/20250209230334/https://www.program-transformation.org/Transform/DeCompilation.html), which went offline in 2025.
 All credits to the following text on this page go to the original creators of the Program-Transformation Wiki.
 The maintainers of the Decompilation Wiki do not claim credit for it, but instead preserve it here for future researchers in decompilation. 
