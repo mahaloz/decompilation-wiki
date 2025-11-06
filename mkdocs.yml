@@ -16,6 +16,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - toc.integrate
   logo: static/img/logo.png
   font:
     text: Noto Sans
