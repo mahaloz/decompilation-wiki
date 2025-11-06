@@ -32,6 +32,7 @@ nav:
 - Decompilers 💾:
   - decompilers/directory.md
   - decompilers/tools.md
+  - decompilers/dec-history-1.md
 - Fundamentals 🔍:
   - fundamentals/overview.md
   - Control Flow Graph Recovery:
