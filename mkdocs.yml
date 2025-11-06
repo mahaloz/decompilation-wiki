@@ -13,7 +13,6 @@ theme:
     secondary: deep orange
   features:
     - navigation.tabs
-    - navigation.tabs.sticky
     - search.suggest
     - search.highlight
     - search.share
