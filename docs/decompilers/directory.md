@@ -10,6 +10,7 @@ Each decompiler should also be listed with some minimal facts about their differ
 - 💀: inactive (2 years without activity)
 - 0️⃣: binary decompiler (compiled languages)
 - 🔌: implemented as a plugin to another decompiler
+- 🎓: built primarily for educational purposes
 
 ### Alphabetical Order
 
@@ -36,4 +37,5 @@ Each decompiler should also be listed with some minimal facts about their differ
 | [rev.ng](https://rev.ng/) | 0️⃣, 🌐 | [TCG](https://www.qemu.org/docs/master/devel/tcg-ops.html), [LLVM IR](https://llvm.org/docs/LangRef.html) | 2017 |
 | [r2dec](https://github.com/wargio/r2dec-js) | 0️⃣, 🌐 | ? | 2019 |
 | [Snowman](https://github.com/x64dbg/snowman) | 0️⃣, 🌐, 💀 | ? | 2015 | 
+| [tiny-dec](https://tiny-dec.zzhang.xyz/) | 0️⃣, 🌐, 🎓 | Simplified [P-Code](https://spinsel.dev/assets/2020-06-17-ghidra-brainfuck-processor-1/ghidra_docs/language_spec/html/pcoderef.html) | 2026 |
 | [fcd](https://github.com/fay59/fcd) | 0️⃣, 🌐, 💀 | ? | 2015|
