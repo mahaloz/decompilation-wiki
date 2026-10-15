@@ -19,6 +19,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Super Mario 3D Land](https://github.com/3dsdecomp/RedPepper)                                                     | 3DS               |           |
 | [The Legend of Zelda: Ocarina of Time 3D](https://github.com/zeldaret/oot3d)                                      | 3DS               |           |
 | [Ambermoon](https://github.com/Pyrdacor/Ambermoon.net)                                                            | Amiga             | ✅         |
+| [Betrayal at Krondor](https://github.com/canassa/betrayal-at-krondor)                                             | DOS               | ✅         |
 | [The Settlers I](https://github.com/freeserf/freeserf)                                                            | DOS               | ✅         |
 | [Tokyo Bus Guide](https://github.com/lhsazevedo/tbg-decomp)                                                       | Dreamcast         |           |
 | [Donkey Kong '94](https://github.com/CelestialAmber/DKGBDisasm)                                                   | GB                | ✅         |
