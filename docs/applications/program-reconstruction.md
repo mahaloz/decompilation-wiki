@@ -177,6 +177,7 @@ Many of the games in this list were collected from GitHub projects, individuals,
 | [Zelda II: The Adventure of Link](https://github.com/FiendsOfTheElements/z2disassembly)                           | NES               | ✅         |
 | [Carmageddon](https://github.com/dethrace-labs/dethrace)                                                          | PC                |           |
 | [Deus Ex: Human Revolution - Director's Cut](https://github.com/rrika/cdcEngineDXHR)                              | PC                |           |
+| [Diablo II: Lord of Destruction](https://github.com/jaenster/redivivus)                                           | PC                |           |
 | [Lego Island](https://github.com/isledecomp/isle)                                                                 | PC                | ✅         |
 | [Sonic Mania](https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation)                                      | PC                |           |
 | [Spider-Man (Neversoft)](https://github.com/krystalgamer/spidey-decomp)                                           | PC                |           |
